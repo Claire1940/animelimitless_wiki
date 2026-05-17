@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Anime Limitless Wiki - Codes, Souls & Boss Guide",
+  "short_name": "Anime Limitless",
+  "description": "Anime Limitless Wiki for Roblox codes, souls, races, traits, boss drops, islands, rifts, beginner tips, and fast progression guides for new players.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "theme_color": "#ef4b2f",
+  "background_color": "#0f111a",
+  "categories": ["games", "entertainment", "reference"],
+  "lang": "en",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -21,13 +24,13 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon-16x16.png",
-      "sizes": "16x16",
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/favicon-32x32.png",
-      "sizes": "32x32",
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
       "type": "image/png"
     },
     {
