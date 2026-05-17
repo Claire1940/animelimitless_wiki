@@ -204,7 +204,7 @@ export default function HomePageClient({
               >
                 <BookOpen className="w-5 h-5" />
                 {t.hero.getFreeCodesCTA}
-              </a>
+              </button>
               <a
                 href="https://www.roblox.com/games/99383863544987/Anime-Limitless"
                 target="_blank"
