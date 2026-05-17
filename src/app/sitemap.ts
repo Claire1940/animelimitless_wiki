@@ -6,26 +6,26 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://animelimitless.wik
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.95,
+	'guide': 0.9,
+	'stats': 0.85,
+	'souls': 0.85,
+	'bosses': 0.8,
+	'haki': 0.8,
+	'rewards': 0.8,
+	'showcase': 0.75,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'stats': 'weekly',
+	'souls': 'weekly',
+	'bosses': 'weekly',
+	'haki': 'weekly',
+	'rewards': 'weekly',
+	'showcase': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

@@ -1,12 +1,561 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Anime Limitless - Kode, Soul & Panduan Boss",
+      "description": "Wiki Anime Limitless untuk kode Roblox, Souls, Race, Trait, drop Boss, pulau, Rift, tips pemula, dan panduan progres cepat untuk pemain baru.",
+      "keywords": "Anime Limitless, Roblox, RPG anime, kode, Souls, Race, Trait, Boss",
+      "ogTitle": "Wiki Anime Limitless - Kode, Soul & Panduan Boss",
+      "ogDescription": "Wiki Anime Limitless untuk kode Roblox, Souls, Race, Trait, drop Boss, pulau, Rift, tips pemula, dan panduan progres cepat.",
+      "twitterTitle": "Wiki Anime Limitless - Kode, Soul & Panduan Boss",
+      "twitterDescription": "Wiki Anime Limitless untuk kode Roblox, Souls, Race, Trait, drop Boss, pulau, Rift, dan tips progres pemula."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "stats": "Stats",
+    "codes": "Kode",
+    "guide": "Panduan",
+    "stats": "Statistik",
     "souls": "Souls",
-    "bosses": "Bosses",
+    "bosses": "Boss",
     "haki": "Haki",
-    "rewards": "Rewards",
-    "showcase": "Showcase"
+    "rewards": "Hadiah",
+    "showcase": "Pameran"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Steam",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Petualangan RPG Anime Cepat",
+    "title": "Wiki Anime Limitless",
+    "description": "Anime Limitless adalah RPG anime Roblox di mana Anda bertarung untuk menjadi lebih kuat, membuka Soul unik, menjelajahi pulau, mengalahkan Boss, dan membangun jalur karakter anime Anda sendiri.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "7+",
+        "label": "Souls Dalam Game"
+      },
+      "stat2": {
+        "value": "30 menit",
+        "label": "Waktu Muncul Soul"
+      },
+      "stat3": {
+        "value": "20 menit",
+        "label": "Waktu Hilang Soul"
+      },
+      "stat4": {
+        "value": "1",
+        "label": "Kode Aktif"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Anime Limitless",
+    "description": "Jelajahi bioma surealis, gabungkan item dengan Apotheosis, dan selamat dari makhluk aneh di kotak pasir voxel seperti mimpi ini di Steam."
+  },
+  "tools": {
+    "title": "Anime Limitless",
+    "titleHighlight": "Navigasi Modul",
+    "subtitle": "Lompat ke panduan inti Anime Limitless untuk kode, progresi, Souls, build, dan tautan resmi.",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Kode Anime Limitless",
+        "description": "Kode aktif, kode kedaluwarsa, dan langkah-langkah penukaran."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula Anime Limitless",
+        "description": "Prioritas sesi pertama dan alur progresi."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Panduan Souls Anime Limitless",
+        "description": "Waktu Soul, jendela spawn, dan prioritas pengumpulan."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Daftar Tingkat Race dan Trait Anime Limitless",
+        "description": "Apa yang harus disimpan, apa yang harus di-reroll, dan mengapa."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Panduan Farming Stat Anime Limitless",
+        "description": "Rute efisien untuk pertumbuhan stat dan peningkatan EXP."
+      },
+      {
+        "icon": "Shield",
+        "title": "Panduan Haki Anime Limitless",
+        "description": "Kapan membuka Haki dan bagaimana itu membantu dalam pertempuran."
+      },
+      {
+        "icon": "Hammer",
+        "title": "Panduan Boss dan Drop Anime Limitless",
+        "description": "Persiapan Boss, Boss Essence, dan loop farming berulang."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Panduan Trello dan Discord Anime Limitless",
+        "description": "Saluran resmi untuk pembaruan, kode, dan sistem."
+      }
+    ]
+  },
+  "modules": {
+    "animeLimitlessCodes": {
+      "title": "Kode Anime Limitless",
+      "intro": "Gunakan daftar kode Anime Limitless untuk mengklaim hadiah gratis dan memulai progresi lebih cepat. Tukarkan kode normal di menu dan gunakan kunci hadiah komunitas di NPC West City.",
+      "steps": [
+        {
+          "title": "Tukarkan RELEASE di menu Kode",
+          "description": "Buka Menu > Kode, masukkan RELEASE persis, dan klaim 20 menit x2 Stat EXP."
+        },
+        {
+          "title": "Klaim LIMITLESSGIFT di NPC Gojo",
+          "description": "Pergi ke West City dan gunakan LIMITLESSGIFT di NPC Gojo Hadiah Komunitas untuk Boss Essences dan putaran."
+        },
+        {
+          "title": "Pisahkan entri aktif dan kedaluwarsa",
+          "description": "Gunakan hadiah aktif terlebih dahulu, dan simpan entri kedaluwarsa hanya sebagai referensi historis untuk pemeriksaan reaktivasi di masa mendatang."
+        }
+      ],
+      "quickTips": [
+        "Tukarkan kode sebelum sesi farming yang panjang untuk memaksimalkan waktu yang ditingkatkan.",
+        "Jika kode gagal, periksa kembali kapitalisasi dan status server.",
+        "Kunci hadiah komunitas dapat menggunakan alur penukaran yang berbeda dari kode menu normal.",
+        "Lacak tanggal verifikasi terakhir Anda agar klaim kode yang kedaluwarsa mudah dikenali."
+      ]
+    },
+    "animeLimitlessBeginnerGuide": {
+      "title": "Panduan Pemula Anime Limitless",
+      "intro": "Progres awal Anime Limitless berfokus pada pelatihan tempur, misi, pengaturan waktu Soul, dan penggunaan sumber daya yang cermat. Mulai dengan sederhana, lalu tingkatkan ke putaran Boss setelah build Anda stabil.",
+      "cards": [
+        {
+          "name": "Tukarkan hadiah sebelum bertarung",
+          "description": "Aktifkan hadiah gratis terlebih dahulu agar setiap pertarungan awal memberikan nilai yang lebih kuat."
+        },
+        {
+          "name": "Berlatih melalui pertarungan aktif",
+          "description": "Pertumbuhan statistik paling cepat saat Anda terus membersihkan musuh dan melatih rotasi kemampuan."
+        },
+        {
+          "name": "Ikuti alur misi dan pulau",
+          "description": "Gunakan progres misi untuk menghindari melompat ke musuh yang melebihi skala build Anda."
+        },
+        {
+          "name": "Lindungi putaran Race dan Trait",
+          "description": "Simpan reroll untuk peningkatan yang jelas daripada membakarnya secara acak di awal permainan."
+        }
+      ],
+      "milestones": [
+        "Gunakan jendela peningkatan EXP pertama Anda",
+        "Selesaikan rute misi stabil pertama Anda",
+        "Pilih Soul yang dapat digunakan untuk build Anda",
+        "Bersiap untuk putaran Boss pertama Anda"
+      ]
+    },
+    "animeLimitlessSoulsGuide": {
+      "title": "Panduan Soul Anime Limitless",
+      "intro": "Souls adalah sistem build utama di Anime Limitless dan paling baik diperlakukan sebagai tujuan berjangka waktu daripada pengambilan acak. Rencanakan farming Anda di sekitar jendela spawn untuk menghindari nilai yang terlewat.",
+      "items": [
+        {
+          "name": "Waktu Spawn",
+          "type": "Pengaturan Waktu",
+          "description": "Souls biasanya muncul setiap 30 menit, jadi lacak setiap siklus saat Anda grinding."
+        },
+        {
+          "name": "Jendela Despawn",
+          "type": "Pengaturan Waktu",
+          "description": "Souls dapat menghilang setelah sekitar 20 menit, jadi kumpulkan dengan cepat setelah dikonfirmasi."
+        },
+        {
+          "name": "Dampak Build",
+          "type": "Prioritas",
+          "description": "Pilih Souls yang secara langsung meningkatkan pola farming dan bossing utama Anda."
+        },
+        {
+          "name": "Urutan Koleksi",
+          "type": "Perutean",
+          "description": "Prioritaskan peningkatan yang tersedia sekarang, lalu ganti Souls bernilai lebih rendah saat opsi yang lebih baik muncul."
+        },
+        {
+          "name": "Pelacakan Pembaruan",
+          "type": "Pemeliharaan",
+          "description": "Tinjau saluran resmi setelah patch untuk perubahan Soul dan penambahan baru."
+        }
+      ]
+    },
+    "animeLimitlessRaceAndTraitTierList": {
+      "title": "Daftar Tingkat Race dan Trait Anime Limitless",
+      "intro": "Pilihan Race dan Trait sangat memengaruhi kecepatan progres, stabilitas tempur, dan performa Boss. Pertahankan roll tingkat atas, gunakan opsi tingkat menengah yang kuat, dan reroll pilihan yang lemah saat sumber daya memungkinkan.",
+      "solutions": [
+        {
+          "name": "S Tier",
+          "role": "Prioritas Terbaik untuk Dipertahankan",
+          "description": "Roll Race dan Trait legendaris adalah jangkar jangka panjang dan harus dipertahankan."
+        },
+        {
+          "name": "A Tier",
+          "role": "Pilihan Progres yang Kuat",
+          "description": "Opsi fokus tempur dengan kelangkaan tinggi sangat bagus untuk misi, farming, dan Boss awal."
+        },
+        {
+          "name": "B Tier",
+          "role": "Dapat Digunakan di Awal Permainan",
+          "description": "Roll kelangkaan menengah dapat diterima saat membangun statistik dan menunggu sumber daya yang lebih baik."
+        },
+        {
+          "name": "C Tier",
+          "role": "Reroll Nanti",
+          "description": "Roll umum adalah permulaan yang fungsional tetapi biasanya diganti selama progres terstruktur."
+        }
+      ],
+      "managementTips": [
+        "Jangan reroll setiap roll yang lumayan hanya untuk hal baru.",
+        "Simpan putaran untuk peningkatan dengan dampak build yang jelas.",
+        "Evaluasi pilihan Race dan Trait secara bersamaan, bukan secara terpisah.",
+        "Periksa kembali pengaturan Anda setelah setiap peningkatan Soul atau Haki utama."
+      ]
+    },
+    "animeLimitlessStatsFarmingGuide": {
+      "title": "Panduan Farming Statistik Anime Limitless",
+      "intro": "Berlatih melalui pertarungan, gunakan hadiah EXP Statistik x2, dan ikuti rute awal yang sederhana untuk tumbuh lebih cepat. Panduan Anime Limitless ini mengubah grinding awal menjadi kemajuan statistik yang stabil.",
+      "cards": [
+        {
+          "name": "Mulai dengan RELEASE",
+          "description": "Gunakan jendela EXP Statistik x2 saat Anda bisa bertarung terus-menerus daripada berdiam diri di kota."
+        },
+        {
+          "name": "Farming melalui pertarungan berulang",
+          "description": "Fokus pada pembersihan musuh yang konsisten dan penyelesaian misi untuk mengumpulkan peningkatan statistik yang andal."
+        },
+        {
+          "name": "Kumpulkan hadiah harian dan waktu bermain",
+          "description": "Gunakan hadiah login dan sesi untuk mengurangi gesekan grinding dan meningkatkan opsi build."
+        },
+        {
+          "name": "Transisi ke putaran Boss",
+          "description": "Pindah ke Boss setelah statistik Anda, pilihan Soul, dan gulungan mendukung pembersihan yang konsisten."
+        }
+      ],
+      "highlights": [
+        "Tukarkan boost sebelum grinding panjang",
+        "Pertahankan rute pertarungan yang dapat diulang",
+        "Rotasikan pemeriksaan Soul ke sesi farming",
+        "Tingkatkan ke Boss dengan kecepatan pembersihan yang stabil"
+      ]
+    },
+    "animeLimitlessHakiGuide": {
+      "title": "Panduan Haki Anime Limitless",
+      "intro": "Pelajari di mana Haki Persenjataan dan Haki Observasi cocok dalam progresi Anime Limitless. Fokus pada Haki setelah statistik awal dan dasar-dasar build inti Anda stabil.",
+      "regions": [
+        {
+          "name": "Peran Haki dalam Progresi",
+          "type": "Ikhtisar Sistem",
+          "description": "Gunakan Haki sebagai lapisan peningkatan pertarungan setelah dasar-dasar statistik dan misi pemula."
+        },
+        {
+          "name": "Haki Persenjataan",
+          "type": "Serangan dan Daya Tahan",
+          "description": "Haki Persenjataan membantu ketika kerusakan mentah dan kemampuan bertahan hidup membutuhkan dasar yang lebih kuat."
+        },
+        {
+          "name": "Haki Observasi",
+          "type": "Kesadaran dan Pertahanan",
+          "description": "Haki Observasi mendukung pertarungan yang lebih aman ketika tekanan Boss dan pola musuh meningkat."
+        },
+        {
+          "name": "Waktu Terbaik",
+          "type": "Urutan Progresi",
+          "description": "Prioritaskan Haki setelah putaran farming inti Anda stabil dan peningkatan mulai membutuhkan biaya lebih banyak."
+        }
+      ]
+    },
+    "animeLimitlessBossesAndDropsGuide": {
+      "title": "Panduan Boss dan Drop Anime Limitless",
+      "intro": "Boss adalah target kunci di pertengahan permainan di Anime Limitless karena mereka memberikan hadiah drop, material, dan peningkatan build. Persiapkan dengan statistik, Souls, gulungan Race dan Trait, dan Haki sebelum farming berulang.",
+      "creatures": [
+        {
+          "name": "Persiapan Boss",
+          "role": "Persiapan",
+          "description": "Masuk ke konten Boss setelah pelatihan statistik yang solid, penggunaan EXP, dan pengaturan build inti."
+        },
+        {
+          "name": "Pelacakan Esensi Boss",
+          "role": "Hadiah Prioritas",
+          "description": "Esensi Boss harus dilacak secara terpisah karena secara langsung mendukung peningkatan progresi."
+        },
+        {
+          "name": "Putaran Drop yang Dapat Diulang",
+          "role": "Rute Farming",
+          "description": "Farming Boss yang dapat Anda selesaikan dengan andal, lalu naik ke konten yang lebih sulit seiring peningkatan efisiensi."
+        },
+        {
+          "name": "Tinjauan Peningkatan Pasca-Lari",
+          "role": "Pemeriksaan Build",
+          "description": "Setelah setiap sesi, tinjau pilihan Soul, Haki, Race, dan Trait untuk siklus berikutnya."
+        },
+        {
+          "name": "Fokus Pertengahan Permainan",
+          "role": "Gerbang Progresi",
+          "description": "Farming Boss menjadi rute terkuat ketika grinding misi dasar mulai berkurang."
+        }
+      ]
+    },
+    "animeLimitlessTrelloAndDiscordGuide": {
+      "title": "Panduan Trello dan Discord Anime Limitless",
+      "intro": "Gunakan saluran resmi untuk melacak pembaruan Anime Limitless, kode, catatan keseimbangan, dan detail sistem. Tautan ini membantu Anda memeriksa perubahan dengan cepat dan merencanakan langkah progres Anda selanjutnya.",
+      "items": [
+        {
+          "name": "Trello Resmi",
+          "type": "Referensi Sistem",
+          "description": "Periksa sistem game, detail progres, dan dokumentasi pembaruan."
+        },
+        {
+          "name": "Discord Resmi",
+          "type": "Pengumuman Langsung",
+          "description": "Ikuti pengumuman, peringatan pembaruan, dan optimasi yang ditemukan komunitas."
+        },
+        {
+          "name": "Halaman Game Roblox",
+          "type": "Pengalaman Resmi",
+          "description": "Gunakan daftar resmi untuk meluncurkan game yang benar dan memverifikasi identitas pengalaman."
+        },
+        {
+          "name": "Komunitas Roblox",
+          "type": "Grup Pembuat",
+          "description": "Lacak pengumuman yang terkait dengan pengembang dan saluran komunitas terkait."
+        },
+        {
+          "name": "Sumber Pembaruan Kode",
+          "type": "Pelacakan Kode",
+          "description": "Lacak daftar kode aktif dan kedaluwarsa serta gunakan langkah penukaran terbaru."
+        }
+      ],
+      "unlockMilestones": [
+        "Tandai Trello resmi",
+        "Gabung Discord resmi",
+        "Verifikasi halaman game Roblox",
+        "Lacak pembaruan komunitas pembuat"
+      ]
+    }
+  },
+  "faq": {
+    "title": "Anime Limitless",
+    "titleHighlight": "FAQ",
+    "subtitle": "Jawaban kunci untuk progres Anime Limitless, sistem, dan sumber daya resmi.",
+    "questions": [
+      {
+        "question": "Bagaimana seharusnya pemula memulai Anime Limitless?",
+        "answer": "Mulai Anime Limitless dengan menukarkan hadiah, meningkatkan statistik melalui pertarungan, dan mengikuti misi sebelum memaksakan pertarungan Boss."
+      },
+      {
+        "question": "Seberapa penting Souls dalam Anime Limitless?",
+        "answer": "Souls adalah sistem pembangunan inti Anime Limitless dan harus dilacak pada jendela spawn untuk menghindari kehilangan peningkatan."
+      },
+      {
+        "question": "Kapan saya harus fokus pada Haki di Anime Limitless?",
+        "answer": "Fokus pada Haki di Anime Limitless setelah rute statistik awal dan dasar pembangunan Anda cukup stabil untuk konten yang lebih sulit."
+      },
+      {
+        "question": "Di mana pembaruan Anime Limitless resmi terbaik diposting?",
+        "answer": "Pembaruan Anime Limitless resmi terbaik diposting di Trello Anime Limitless, Discord Anime Limitless, dan halaman Roblox Anime Limitless resmi."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Memulai Anime Limitless?",
+    "description": "Bergabunglah dengan komunitas Anime Limitless untuk kode, pembaruan Soul, dan tips progres.",
+    "joinCommunity": "Gabung Discord",
+    "joinGame": "Mainkan Anime Limitless di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Anime Limitless",
+    "description": "Pusat sumber daya lengkap Anda untuk kode Anime Limitless, Soul, Race, Trait, Boss, dan panduan progres.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "twitter": "Trello",
+    "steamCommunity": "Grup Roblox",
+    "steamStore": "Mainkan di Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Wiki Anime Limitless. Tidak berafiliasi dengan pengembang Anime Limitless.",
+    "disclaimer": "Situs web sumber daya buatan penggemar tidak resmi."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Anime Limitless",
+      "description": "Kode kerja terbaru untuk permata gratis, chip stat, dan pengguliran ulang Trait dengan langkah penebusan cepat.",
+      "metaTitle": "Kode Anime Limitless - Permata Gratis, Chip, dan Pengguliran Ulang",
+      "metaDescription": "Temukan kode Anime Limitless aktif untuk permata gratis, chip stat, dan pengguliran ulang Trait. Diperbarui dengan daftar tebus yang berfungsi dan tips klaim.",
+      "categoryLabel": "KODE TEBUS",
+      "whatIs": "Apa itu Kode Anime Limitless?",
+      "whatIsDescription": "Kode adalah string tebusan berbatas waktu yang dirilis selama pencapaian, patch, dan acara. Biasanya mereka memberikan permata, chip stat, dan pengguliran ulang yang mempercepat progres awal dan pertengahan permainan.",
+      "why": "Mengapa memeriksa kode Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Klaim Progres Gratis",
+        "step1Description": "Dapatkan permata dan chip tambahan tanpa sesi grinding.",
+        "step2Title": "Pulihkan Kesalahan Build",
+        "step2Description": "Gunakan pengguliran ulang dan mata uang bonus untuk menyesuaikan pengaturan yang lemah lebih cepat.",
+        "step3Title": "Tetap Terdepan dari Kedaluwarsa",
+        "step3Description": "Tebus dengan cepat sebelum kode acara berdurasi pendek menghilang."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Anime Limitless",
+      "description": "Rute progres inti, prioritas leveling, dan loop tempur praktis untuk pertumbuhan akun yang konsisten.",
+      "metaTitle": "Panduan Anime Limitless - Progres Pemula hingga Mahir",
+      "metaDescription": "Baca panduan progres Anime Limitless untuk leveling, perutean sumber daya, dan pertumbuhan akun yang efisien dari permainan pemula hingga mahir.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu bagian panduan Anime Limitless?",
+      "whatIsDescription": "Kategori ini mencakup alur progres dari rutinitas pemula hingga sistem endgame, termasuk rotasi tempur, transisi area, dan pos pemeriksaan peningkatan.",
+      "why": "Mengapa membaca panduan Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Hindari Jalan Memutar Awal",
+        "step1Description": "Ikuti rute stabil yang melewati loop grinding bernilai rendah.",
+        "step2Title": "Rencanakan Urutan Peningkatan",
+        "step2Description": "Urutkan stat, Soul, haki, dan hadiah untuk peningkatan kekuatan yang lebih mulus.",
+        "step3Title": "Kurangi Coba-coba",
+        "step3Description": "Gunakan pengaturan yang terbukti yang mengubah waktu menjadi progres yang jelas."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "stats": {
+      "title": "Statistik Anime Limitless",
+      "description": "Metode farming EXP Stat, strategi alokasi, dan rute pelatihan untuk meningkatkan damage dan kemampuan bertahan hidup.",
+      "metaTitle": "Statistik Anime Limitless - Panduan Pelatihan dan Farming",
+      "metaDescription": "Optimalkan pertumbuhan stat Anime Limitless dengan metode pelatihan, rute farming EXP, dan strategi alokasi untuk build yang lebih kuat.",
+      "categoryLabel": "PELATIHAN STAT",
+      "whatIs": "Apa itu statistik Anime Limitless?",
+      "whatIsDescription": "Statistik menentukan output tempur inti dan daya tahan Anda. Bagian ini menjelaskan cara farming EXP Stat, memilih distribusi poin, dan mengadaptasi build untuk konten yang berbeda.",
+      "why": "Mengapa fokus pada statistik Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Tingkatkan Damage Lebih Cepat",
+        "step1Description": "Prioritaskan rute stat dengan pengembalian tinggi untuk mengalahkan musuh lebih cepat.",
+        "step2Title": "Tingkatkan Kemampuan Bertahan Hidup",
+        "step2Description": "Seimbangkan peningkatan ofensif dan defensif untuk permainan yang lebih lama.",
+        "step3Title": "Dukung Tujuan Build",
+        "step3Description": "Sesuaikan alokasi stat dengan pilihan Soul dan Haki Anda."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Statistik"
+    },
+    "souls": {
+      "title": "Soul Anime Limitless",
+      "description": "Akuisisi Soul, peringkat, dan rincian sinergi untuk progresi PvE dan identitas karakter yang lebih kuat.",
+      "metaTitle": "Soul Anime Limitless - Soul Terbaik dan Strategi Drop",
+      "metaDescription": "Pelajari sistem Soul Anime Limitless, opsi terbaik, rute drop, dan pilihan sinergi praktis untuk progresi PvE yang konsisten.",
+      "categoryLabel": "SISTEM SOUL",
+      "whatIs": "Apa itu Soul Anime Limitless?",
+      "whatIsDescription": "Soul adalah pengubah build utama yang memengaruhi gaya bertarung dan peningkatan. Bagian ini mencakup nilai Soul, metode akuisisi, dan kapan harus menukar atau menahan.",
+      "why": "Mengapa mengoptimalkan Soul Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Bangun Berdasarkan Kekuatan",
+        "step1Description": "Pilih Soul yang sesuai dengan profil stat dan loop farming Anda.",
+        "step2Title": "Targetkan Drop yang Lebih Baik",
+        "step2Description": "Gunakan data Boss dan rute untuk menghindari farming dengan hasil rendah.",
+        "step3Title": "Skala ke Endgame",
+        "step3Description": "Transisi dari Soul sementara ke pilihan inti jangka panjang."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Soul"
+    },
+    "bosses": {
+      "title": "Boss Anime Limitless",
+      "description": "Jalur spawn Boss, mekanisme, dan prioritas drop untuk penyelesaian yang efisien dan farming hadiah yang andal.",
+      "metaTitle": "Boss Anime Limitless - Lokasi, Drop, dan Tips Penyelesaian",
+      "metaDescription": "Lacak lokasi Boss Anime Limitless, mekanisme, dan prioritas drop untuk menyelesaikan pertarungan secara efisien dan farming hadiah bernilai tinggi.",
+      "categoryLabel": "STRATEGI BOSS",
+      "whatIs": "Apa itu konten Boss Anime Limitless?",
+      "whatIsDescription": "Konten Boss mencakup pertemuan gaya raid dan pertarungan elit dengan mekanisme dan kumpulan hadiah tertentu. Panduan di sini mencakup persiapan, respons pola, dan waktu rute.",
+      "why": "Mengapa mempelajari Boss Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Selesaikan Pertarungan Secara Konsisten",
+        "step1Description": "Pelajari pola gerakan dan posisi yang lebih aman sebelum mengalokasikan sumber daya.",
+        "step2Title": "Farming Drop yang Lebih Baik",
+        "step2Description": "Fokus pada Boss dengan nilai tertinggi untuk tahap Anda.",
+        "step3Title": "Kurangi Waktu Henti",
+        "step3Description": "Gunakan waktu spawn dan perencanaan rute untuk merangkai pertemuan."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Boss"
+    },
+    "haki": {
+      "title": "Haki Anime Limitless",
+      "description": "Persyaratan, alur pembukaan, dan saran progres untuk membangun pengaturan armament dan observasi yang kuat.",
+      "metaTitle": "Haki Anime Limitless - Pembukaan, Persyaratan, dan Progres",
+      "metaDescription": "Kuasai Haki Anime Limitless dengan persyaratan pembukaan, jalur peningkatan, dan pilihan progres praktis untuk performa tempur yang lebih kuat.",
+      "categoryLabel": "PROGRES HAKI",
+      "whatIs": "Apa itu Haki Anime Limitless?",
+      "whatIsDescription": "Haki adalah lapisan progres berdampak tinggi yang menambahkan skala tempur dan utilitas utama. Bagian ini merinci kondisi pembukaan, kecepatan peningkatan, dan penggunaan praktis.",
+      "why": "Mengapa berinvestasi pada Haki Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Dapatkan Kekuatan Tempur",
+        "step1Description": "Buka pengganda yang meningkatkan kerusakan dan kontrol tekanan.",
+        "step2Title": "Penuhi Pemeriksaan Konten",
+        "step2Description": "Gunakan ambang Haki untuk menangani Boss dan event yang lebih sulit.",
+        "step3Title": "Dukung Build Hibrida",
+        "step3Description": "Gabungkan pertumbuhan Haki dengan Souls dan statistik untuk skala yang stabil."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Haki"
+    },
+    "rewards": {
+      "title": "Hadiah Anime Limitless",
+      "description": "Pelacakan hadiah harian, waktu bermain, dan event dengan tips waktu klaim untuk memaksimalkan nilai progres gratis.",
+      "metaTitle": "Hadiah Anime Limitless - Klaim Harian, Waktu Bermain, dan Event",
+      "metaDescription": "Lacak hadiah harian dan event Anime Limitless, jendela klaim, dan tips penumpukan untuk memaksimalkan sumber daya progres gratis.",
+      "categoryLabel": "PELACAKAN HADIAH",
+      "whatIs": "Apa itu hadiah Anime Limitless?",
+      "whatIsDescription": "Hadiah termasuk klaim harian, pencapaian waktu bermain, pembayaran event, dan kompensasi patch. Bagian ini berfokus pada jendela klaim, prioritas, dan pencegahan nilai yang terlewat.",
+      "why": "Mengapa melacak hadiah Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Dapatkan Sumber Daya Gratis",
+        "step1Description": "Kumpulkan hadiah berulang yang bertambah seiring waktu.",
+        "step2Title": "Prioritaskan Nilai Tinggi",
+        "step2Description": "Klaim hadiah terbatas sebelum item rutin berdampak rendah.",
+        "step3Title": "Koordinasikan Dengan Farming",
+        "step3Description": "Tumpuk hadiah dengan sesi statistik dan Boss untuk efisiensi yang lebih baik."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Hadiah"
+    },
+    "showcase": {
+      "title": "Pameran Anime Limitless",
+      "description": "Sorotan pembaruan, ikhtisar gameplay, dan demonstrasi fitur yang menjelaskan apa yang berubah dan mengapa itu penting.",
+      "metaTitle": "Pameran Anime Limitless - Pembaruan, Gameplay, dan Fitur",
+      "metaDescription": "Jelajahi konten pameran Anime Limitless yang mencakup pembaruan, ikhtisar fitur, dan demonstrasi gameplay untuk memahami perubahan baru dengan cepat.",
+      "categoryLabel": "PAMERAN",
+      "whatIs": "Apa itu pameran Anime Limitless?",
+      "whatIsDescription": "Konten pameran merangkum pembaruan penting, pengungkapan fitur, dan demonstrasi gameplay. Ini membantu Anda mengevaluasi sistem baru sebelum membangun kembali rute Anda.",
+      "why": "Mengapa meninjau pembaruan pameran Anime Limitless?",
+      "whySteps": {
+        "step1Title": "Pahami Patch Baru",
+        "step1Description": "Lihat apa yang berubah sebelum menghabiskan sumber daya untuk reset.",
+        "step2Title": "Pratinjau Dampak Fitur",
+        "step2Description": "Periksa demonstrasi untuk memperkirakan nilai untuk build Anda.",
+        "step3Title": "Sesuaikan Rencana Anda Lebih Awal",
+        "step3Description": "Perbarui jalur farming dan progres segera setelah perubahan terjadi."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Pameran"
+    }
   }
 }
