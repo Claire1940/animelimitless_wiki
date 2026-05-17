@@ -61,7 +61,7 @@
     "subtitle": "Jump to the core Anime Limitless guides for codes, progression, Souls, builds, and official links.",
     "cards": [
       {
-        "icon": "Gift",
+        "icon": "Download",
         "title": "Anime Limitless Codes",
         "description": "Active codes, expired codes, and redeem steps."
       },
@@ -76,7 +76,7 @@
         "description": "Soul timing, spawn windows, and collection priorities."
       },
       {
-        "icon": "Layers",
+        "icon": "ClipboardCheck",
         "title": "Anime Limitless Race and Trait Tier List",
         "description": "What to keep, what to reroll, and why."
       },
@@ -91,12 +91,12 @@
         "description": "When to unlock Haki and how it helps in combat."
       },
       {
-        "icon": "Swords",
+        "icon": "Hammer",
         "title": "Anime Limitless Bosses and Drops Guide",
         "description": "Boss prep, Boss Essence, and repeat farming loops."
       },
       {
-        "icon": "Compass",
+        "icon": "MessageCircle",
         "title": "Anime Limitless Trello and Discord Guide",
         "description": "Official channels for updates, codes, and systems."
       }
