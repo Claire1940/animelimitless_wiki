@@ -220,7 +220,7 @@
     },
     "animeLimitlessStatsFarmingGuide": {
       "title": "Anime Limitless Stats Farming Guide",
-      "intro": "Stat farming is the foundation of Anime Limitless progression. Efficient sessions combine EXP boosts, repeatable combat routes, reward collection, and timed Soul checks.",
+      "intro": "Train through combat, use x2 Stat EXP rewards, and follow a simple early route to grow faster. This Anime Limitless guide turns early grinding into steady stat progress.",
       "cards": [
         {
           "name": "Start with RELEASE",
@@ -248,7 +248,7 @@
     },
     "animeLimitlessHakiGuide": {
       "title": "Anime Limitless Haki Guide",
-      "intro": "Haki becomes a high-value system once your early stat foundation is stable. Build into Haki when standard combat starts slowing down against stronger enemies and boss targets.",
+      "intro": "Learn where Armament Haki and Observation Haki fit into Anime Limitless progression. Focus on Haki after your early stats and core build basics are stable.",
       "regions": [
         {
           "name": "Haki Role in Progression",
@@ -274,7 +274,7 @@
     },
     "animeLimitlessBossesAndDropsGuide": {
       "title": "Anime Limitless Bosses and Drops Guide",
-      "intro": "Bosses are the central mid-game progression loop in Anime Limitless. Prepare carefully, track high-value drops, and repeat stable runs to build consistent upgrades.",
+      "intro": "Bosses are a key mid-game target in Anime Limitless because they reward drops, materials, and build upgrades. Prepare with stats, Souls, Race and Trait rolls, and Haki before repeated farming.",
       "creatures": [
         {
           "name": "Boss Preparation",
@@ -305,7 +305,7 @@
     },
     "animeLimitlessTrelloAndDiscordGuide": {
       "title": "Anime Limitless Trello and Discord Guide",
-      "intro": "Use official channels to track Anime Limitless updates, code drops, balance notes, and system details. These links reduce misinformation risk and speed up build decisions.",
+      "intro": "Use official channels to track Anime Limitless updates, code drops, balance notes, and system details. These links help you check changes fast and plan your next progression steps.",
       "items": [
         {
           "name": "Official Trello",
@@ -330,7 +330,7 @@
         {
           "name": "Code Update Sources",
           "type": "Code Tracking",
-          "description": "Monitor updated code lists and compare active versus expired entries."
+          "description": "Track active and expired code lists and use the latest redeem steps."
         }
       ],
       "unlockMilestones": [
@@ -360,7 +360,7 @@
       },
       {
         "question": "Where are the best official Anime Limitless updates posted?",
-        "answer": "The best official Anime Limitless updates come from the Trello, Discord, and Roblox pages linked in the resources module."
+        "answer": "The best official Anime Limitless updates are posted on the Anime Limitless Trello, Anime Limitless Discord, and the official Anime Limitless Roblox page."
       }
     ]
   },
