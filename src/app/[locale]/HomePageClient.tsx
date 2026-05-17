@@ -97,13 +97,13 @@ export default function HomePageClient({
         url: siteUrl,
         name: "Anime Limitless Wiki",
         description:
-          "Complete Anime Limitless Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Anime Limitless Wiki covering codes, souls, races, traits, bosses, islands, and progression tips for Roblox players.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Anime Limitless - Surreal Voxel Survival Sandbox",
+          caption: "Anime Limitless - Roblox Anime RPG",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -118,7 +118,7 @@ export default function HomePageClient({
         alternateName: "Anime Limitless",
         url: siteUrl,
         description:
-          "Complete Anime Limitless Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Anime Limitless Wiki resource hub for codes, souls, races, traits, bosses, and progression guides.",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,7 +130,7 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Anime Limitless Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Anime Limitless Wiki - Roblox Anime RPG",
         },
         sameAs: [
           "https://www.roblox.com/games/99383863544987/Anime-Limitless",
@@ -142,9 +142,9 @@ export default function HomePageClient({
       {
         "@type": "VideoGame",
         name: "Anime Limitless",
-        gamePlatform: ["PC", "Steam"],
+        gamePlatform: ["PC", "Mobile", "Console", "Roblox"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Anime", "RPG", "Action", "Adventure"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -1339,7 +1339,7 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Roblox Group <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>

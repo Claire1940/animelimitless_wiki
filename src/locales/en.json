@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Anime Limitless Wiki - Codes, Souls & Boss Guide",
+      "description": "Anime Limitless Wiki for Roblox codes, souls, races, traits, boss drops, islands, rifts, beginner tips, and fast progression guides for new players.",
+      "keywords": "Anime Limitless, Roblox, anime RPG, codes, souls, races, traits, bosses",
+      "ogTitle": "Anime Limitless Wiki - Codes, Souls & Boss Guide",
+      "ogDescription": "Anime Limitless Wiki for Roblox codes, souls, races, traits, boss drops, islands, rifts, beginner tips, and fast progression guides.",
+      "twitterTitle": "Anime Limitless Wiki - Codes, Souls & Boss Guide",
+      "twitterDescription": "Anime Limitless Wiki for Roblox codes, souls, races, traits, boss drops, islands, rifts, and beginner progression tips."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Fast Anime RPG Adventure",
+    "title": "Anime Limitless Wiki",
+    "description": "Anime Limitless is a Roblox anime RPG where you fight to grow stronger, unlock unique Souls, explore islands, defeat bosses, and build your own anime character path.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "7+",
+        "label": "Souls In-Game"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "30 min",
+        "label": "Soul Spawn Timer"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "20 min",
+        "label": "Soul Despawn Timer"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "1",
+        "label": "Active Code"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Start Anime Limitless?",
+    "description": "Join the Anime Limitless community for codes, soul updates, and progression tips.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play Anime Limitless on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Anime Limitless Wiki",
+    "description": "Your complete resource hub for Anime Limitless codes, souls, races, traits, bosses, and progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Trello",
+    "steamCommunity": "Roblox Group",
+    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Anime Limitless Wiki. Not affiliated with the developers of Anime Limitless.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
