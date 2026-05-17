@@ -10,7 +10,16 @@
       "twitterDescription": "Anime Limitless Wiki for Roblox codes, souls, races, traits, boss drops, islands, rifts, and beginner progression tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "stats": "Stats",
+    "souls": "Souls",
+    "bosses": "Bosses",
+    "haki": "Haki",
+    "rewards": "Rewards",
+    "showcase": "Showcase"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -388,125 +397,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Anime Limitless Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Anime Limitless Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Limitless guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Anime Limitless Codes",
+      "description": "Latest working codes for free gems, stat chips, and trait rerolls with quick redemption steps.",
+      "metaTitle": "Anime Limitless Codes - Free Gems, Chips, and Rerolls",
+      "metaDescription": "Find active Anime Limitless codes for free gems, stat chips, and trait rerolls. Updated with working redeem lists and claim tips.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Anime Limitless Codes?",
+      "whatIsDescription": "Codes are time-limited redeem strings released during milestones, patches, and events. They usually grant gems, stat chips, and rerolls that speed up early and mid-game progression.",
+      "why": "Why check Anime Limitless codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Claim Free Progress",
+        "step1Description": "Get extra gems and chips without grinding sessions.",
+        "step2Title": "Recover Build Mistakes",
+        "step2Description": "Use rerolls and bonus currency to adjust weak setups faster.",
+        "step3Title": "Stay Ahead of Expiry",
+        "step3Description": "Redeem quickly before short-duration event codes disappear."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Anime Limitless Guide",
+      "description": "Core progression routes, leveling priorities, and practical combat loops for consistent account growth.",
+      "metaTitle": "Anime Limitless Guide - Beginner to Advanced Progression",
+      "metaDescription": "Read Anime Limitless progression guides for leveling, resource routing, and efficient account growth from beginner to advanced play.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Anime Limitless guide section?",
+      "whatIsDescription": "This category covers progression flow from starter routines to endgame systems, including combat rotation, area transitions, and upgrade checkpoints.",
+      "why": "Why read Anime Limitless guides?",
+      "whySteps": {
+        "step1Title": "Avoid Early Detours",
+        "step1Description": "Follow stable routes that skip low-value grind loops.",
+        "step2Title": "Plan Upgrade Order",
+        "step2Description": "Sequence stats, souls, haki, and rewards for smoother power spikes.",
+        "step3Title": "Reduce Trial-and-Error",
+        "step3Description": "Use proven setups that convert time into clear progress."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Anime Limitless Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Anime Limitless Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Anime Limitless Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "stats": {
+      "title": "Anime Limitless Stats",
+      "description": "Stat EXP farming methods, allocation strategy, and training routes to scale damage and survivability.",
+      "metaTitle": "Anime Limitless Stats - Training and Farming Guide",
+      "metaDescription": "Optimize Anime Limitless stat growth with training methods, EXP farming routes, and allocation strategies for stronger builds.",
+      "categoryLabel": "STAT TRAINING",
+      "whatIs": "What are Anime Limitless stats?",
+      "whatIsDescription": "Stats determine your core combat output and durability. This section explains how to farm Stat EXP, choose point distribution, and adapt builds for different content.",
+      "why": "Why focus on Anime Limitless stats?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Increase Damage Faster",
+        "step1Description": "Prioritize high-return stat routes to beat enemies sooner.",
+        "step2Title": "Improve Survivability",
+        "step2Description": "Balance offensive and defensive scaling for longer runs.",
+        "step3Title": "Support Build Goals",
+        "step3Description": "Match stat allocation with your soul and haki choices."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Stats Guides"
     },
-    "items": {
-      "title": "Anime Limitless Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Anime Limitless Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Anime Limitless including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "souls": {
+      "title": "Anime Limitless Souls",
+      "description": "Soul acquisition, ranking, and synergy breakdowns for PvE progression and stronger character identity.",
+      "metaTitle": "Anime Limitless Souls - Best Souls and Drop Strategy",
+      "metaDescription": "Learn Anime Limitless soul systems, best options, drop routes, and practical synergy picks for consistent PvE progression.",
+      "categoryLabel": "SOUL SYSTEM",
+      "whatIs": "What are Anime Limitless souls?",
+      "whatIsDescription": "Souls are major build modifiers that affect combat style and scaling. This section covers soul value, acquisition methods, and when to swap or hold.",
+      "why": "Why optimize Anime Limitless souls?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Build Around Strengths",
+        "step1Description": "Choose souls that fit your stat profile and farming loop.",
+        "step2Title": "Target Better Drops",
+        "step2Description": "Use boss and route data to avoid low-yield farming.",
+        "step3Title": "Scale Into Endgame",
+        "step3Description": "Transition from temporary souls to long-term core picks."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Souls Guides"
     },
-    "biomes": {
-      "title": "Anime Limitless Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Anime Limitless Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Anime Limitless biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "bosses": {
+      "title": "Anime Limitless Bosses",
+      "description": "Boss spawn paths, mechanics, and drop priorities for efficient clears and reliable reward farming.",
+      "metaTitle": "Anime Limitless Bosses - Locations, Drops, and Clear Tips",
+      "metaDescription": "Track Anime Limitless boss locations, mechanics, and drop priorities to clear fights efficiently and farm high-value rewards.",
+      "categoryLabel": "BOSS STRATEGY",
+      "whatIs": "What is Anime Limitless boss content?",
+      "whatIsDescription": "Boss content includes raid-style encounters and elite fights with specific mechanics and reward pools. Guides here cover prep, pattern response, and route timing.",
+      "why": "Why study Anime Limitless bosses?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Clear Fights Consistently",
+        "step1Description": "Learn move patterns and safer positioning before committing resources.",
+        "step2Title": "Farm Better Drops",
+        "step2Description": "Focus on bosses with the highest value for your stage.",
+        "step3Title": "Cut Downtime",
+        "step3Description": "Use spawn timing and route planning to chain encounters."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Boss Guides"
     },
-    "building": {
-      "title": "Anime Limitless Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Anime Limitless Building - Qualia & Base Construction",
-      "metaDescription": "Master Anime Limitless building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "haki": {
+      "title": "Anime Limitless Haki",
+      "description": "Requirements, unlock flow, and progression advice for building strong armament and observation setups.",
+      "metaTitle": "Anime Limitless Haki - Unlocks, Requirements, and Progression",
+      "metaDescription": "Master Anime Limitless haki with unlock requirements, upgrade paths, and practical progression choices for stronger combat performance.",
+      "categoryLabel": "HAKI PROGRESSION",
+      "whatIs": "What is Anime Limitless haki?",
+      "whatIsDescription": "Haki is a high-impact progression layer that adds major combat scaling and utility. This section details unlock conditions, upgrade pacing, and practical usage.",
+      "why": "Why invest in Anime Limitless haki?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Gain Combat Power",
+        "step1Description": "Unlock multipliers that improve damage and pressure control.",
+        "step2Title": "Meet Content Checks",
+        "step2Description": "Use haki thresholds to handle harder bosses and events.",
+        "step3Title": "Support Hybrid Builds",
+        "step3Description": "Combine haki growth with souls and stats for stable scaling."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Haki Guides"
     },
-    "support": {
-      "title": "Anime Limitless Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Anime Limitless Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Anime Limitless including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "rewards": {
+      "title": "Anime Limitless Rewards",
+      "description": "Daily, playtime, and event reward tracking with claim timing tips to maximize free progression value.",
+      "metaTitle": "Anime Limitless Rewards - Daily, Playtime, and Event Claims",
+      "metaDescription": "Track Anime Limitless daily and event rewards, claim windows, and stacking tips to maximize free progression resources.",
+      "categoryLabel": "REWARD TRACKING",
+      "whatIs": "What are Anime Limitless rewards?",
+      "whatIsDescription": "Rewards include daily claims, playtime milestones, event payouts, and patch compensation. This section focuses on claim windows, priorities, and missed-value prevention.",
+      "why": "Why track Anime Limitless rewards?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Capture Free Resources",
+        "step1Description": "Collect recurring rewards that compound over time.",
+        "step2Title": "Prioritize High Value",
+        "step2Description": "Claim limited rewards before low-impact routine items.",
+        "step3Title": "Coordinate With Farming",
+        "step3Description": "Stack rewards with stat and boss sessions for better efficiency."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Rewards Guides"
+    },
+    "showcase": {
+      "title": "Anime Limitless Showcase",
+      "description": "Update highlights, gameplay overviews, and feature demonstrations that explain what changed and why it matters.",
+      "metaTitle": "Anime Limitless Showcase - Updates, Gameplay, and Features",
+      "metaDescription": "Browse Anime Limitless showcase content covering updates, feature overviews, and gameplay demonstrations to quickly understand new changes.",
+      "categoryLabel": "SHOWCASE",
+      "whatIs": "What is the Anime Limitless showcase?",
+      "whatIsDescription": "Showcase content summarizes notable updates, feature reveals, and gameplay demonstrations. It helps you evaluate new systems before rebuilding your route.",
+      "why": "Why review Anime Limitless showcase updates?",
+      "whySteps": {
+        "step1Title": "Understand New Patches",
+        "step1Description": "See what changed before spending resources on resets.",
+        "step2Title": "Preview Feature Impact",
+        "step2Description": "Check demonstrations to estimate value for your build.",
+        "step3Title": "Adjust Your Plan Early",
+        "step3Description": "Update farming and progression paths as soon as changes land."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Showcase Articles"
     }
   }
 }

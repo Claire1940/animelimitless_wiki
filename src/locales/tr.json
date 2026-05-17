@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Codes",
+    "guide": "Guide",
+    "stats": "Stats",
+    "souls": "Souls",
+    "bosses": "Bosses",
+    "haki": "Haki",
+    "rewards": "Rewards",
+    "showcase": "Showcase"
   },
   "common": {
     "home": "Ana Sayfa",

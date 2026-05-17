@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Progressão Anime Limitless: Domine Estatísticas, Almas e Haki",
+  description: "Mergulhe no Anime Limitless com nosso guia completo de progressão, cobrindo o grind de estatísticas, aquisição de almas, treinamento de Haki e conteúdo de endgame para construir seu personagem definitivo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Anime+Limitless+Progression",
+  date: "2026-05-17",
+  author: "Equipe Wiki Anime Limitless"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Progressão Anime Limitless**: Concentre-se no **grind de estatísticas** como método principal para o crescimento do personagem.
+- **Sistema de Almas**: Adquira **Almas** poderosas em baús de chefes ou no negociante de West City para aprimorar sua build.
+- **Treinamento de Haki**: Domine **Haki do Armamento e da Observação** para defesa e evasão.
+- **Rifts e Abismo**: Enfrente **Rifts** para materiais de evolução e desafie o **Abismo** para equipamentos de endgame.
+- **Códigos**: Resgate **códigos** ativos para bônus valiosos e brindes para acelerar sua jornada.
+</Callout>
+
+<Section icon={Map} title="Compreendendo a Progressão Central em Anime Limitless">
+Anime Limitless mergulha os jogadores em um RPG de anime dinâmico onde o treinamento contínuo e as atualizações estratégicas são a chave para se tornar um protagonista shonen superpoderoso. Ao contrário dos sistemas tradicionais baseados em níveis, este jogo enfatiza fortemente o **grind de estatísticas** e a aquisição de habilidades poderosas. Cada ação, desde ataques básicos até o uso de habilidades específicas, contribui para o crescimento do seu personagem.
+
+A progressão central gira em torno de lutar ativamente contra inimigos e usar repetidamente suas habilidades. Quanto mais você treina, mais rápido suas estatísticas aumentam, espelhando aquela sensação clássica de anime de superar seus limites para ficar mais forte. Este sistema incentiva o engajamento ativo e a experimentação com diferentes builds.
+
+**Destaques do Vídeo:**
+- Explica o sistema de nivelamento, focando na progressão de estatísticas em vez do nível do jogador.
+- Detalha como grindar estatísticas específicas equipando os itens correspondentes (por exemplo, espada para estatística de espada).
+- Mostra como usar o recurso "acompanhar missão" para atingir ganhos de estatísticas específicas.
+- Fornece uma visão geral do fluxo de progressão geral do jogo.
+
+<YouTubeEmbed videoId="QHGnC738Yj0" title="O MELHOR GUIA DE LANÇAMENTO... | Anime Limitless" />
+
+<Callout type="tip" title="Eficiência no Grind de Estatísticas">
+Sempre tenha **Auto M1s ativado** em suas configurações. Este recurso farma automaticamente as estatísticas do item equipado enquanto você está grindando, tornando sua progressão muito mais eficiente, especialmente durante sessões AFK.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Sistema de Nivelamento">
+    - **Nível do Jogador**: Progride através de missões, menos crítico que as estatísticas.
+    - **Grind de Estatísticas**: Progressão primária, aumenta com base no uso (por exemplo, ataques de espada para estatística de espada).
+    - **Acompanhar Missão**: Use este recurso para focar em ganhos de estatísticas específicas.
+  </Card>
+  <Card title="Filosofia de Progressão">
+    - **Treinamento Ativo**: O crescimento vem de lutar e usar habilidades.
+    - **Personalização de Build**: Influenciada por Almas, Raças e Traços.
+    - **Melhoria Contínua**: Cada luta contribui para a evolução do personagem.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Adquirindo e Utilizando Almas">
+Almas são habilidades especiais poderosas que impactam significativamente sua build em Anime Limitless. Obter Almas fortes é uma parte importante da progressão, pois elas podem mudar drasticamente seu desempenho em combate e opções estratégicas. As Almas têm várias raridades, de Comum a Lendário, com raridades mais altas oferecendo efeitos mais potentes.
+
+Existem dois métodos principais para adquirir Almas, cada um com seus próprios desafios e recompensas. Compreender esses métodos é crucial para otimizar o poder do seu personagem.
+
+| Fonte | Método | Custo/Requisito | Faixa de Raridade | Notas |
+| :----- | :----- | :--------------- | :----------- | :---- |
+| **Drops de Chefes** | Derrote chefes, chance de dropar baús | Dificuldade do chefe | Comum, Raro, Épico, Lendário | Imprevisível, mas gratuito. Almas Lendárias são raras. |
+| **Negociante de Almas** | Compre de NPC em West City | 25.000 Ouro por tentativa | Comum, Raro, Épico, Lendário | Acesso consistente, mas requer investimento significativo de ouro. |
+
+<Callout type="warning" title="Surgimento e Desaparecimento de Almas">
+As Almas naturalmente **surgem ao redor do mundo a cada 30 minutos** e **desaparecerão após 20 minutos** se não forem coletadas. Fique vigilante e explore frequentemente para garantir poderes raros antes que eles desapareçam ou outros jogadores os encontrem.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Farm de Chefes para Baús">
+    Localize e derrote vários chefes em diferentes ilhas. Esses chefes têm uma chance de dropar baús ao serem derrotados. Abra esses baús para ter a chance de receber uma Alma. Este método é gratuito, mas depende da sorte.
+  </Step>
+  <Step num="2" title="Visitando o Negociante de Almas">
+    Viaje para **West City** e encontre o NPC Negociante de Almas. Você pode comprar Almas deste negociante por **25.000 Ouro cada**. Isso fornece uma maneira mais consistente, embora cara, de obter novas Almas.
+  </Step>
+  <Step num="3" title="Reiniciar Alma">
+    Se você não estiver satisfeito com sua Alma atual, você pode resetá-la em West City por **150 Gemas**. As Gemas são tipicamente adquiridas em missões ou lutando contra chefes. Isso permite a otimização da build sem começar do zero.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Dominando as Habilidades Haki">
+As habilidades Haki são essenciais tanto para ataque quanto para defesa em Anime Limitless, proporcionando vantagens significativas em combate. Existem dois tipos principais de Haki: Haki do Armamento e Haki da Observação. Cada um oferece benefícios únicos e requer treinamento específico para dominar.
+
+| Tipo de Haki | Local para Aprender | Requisitos | Benefício Principal | Método de Treinamento |
+| :-------- | :---------------- | :----------- | :-------------- | :-------------- |
+| **Armamento** | Ilha dos Macacos (Treinador Busoshoku) | 75 Stamina, 75 Força/Espada | Aumento de defesa, poder de ataque | Use-o em combate; missão do treinador |
+| **Observação** | Ilha do Deserto (NPC Katakuri) | Haki do Armamento, 200 estatísticas de Haki, 200 Stamina | Desviar de ataques, consciência aprimorada | Leve 10 golpes do chefe com ele ativo |
+
+<Callout type="info" title="Dica de Treinamento de Haki">
+O Haki da Observação permite que você desvie de ataques recebidos, uma habilidade crítica para sobreviver a encontros mais difíceis. Assim que o adquirir, use-o ativamente em combate para subir de nível, tornando seu personagem muito mais ágil.
+</Callout>
+
+<Checklist
+  id="haki-training"
+  title="Lista de Verificação de Aquisição de Haki:"
+  items={[
+    "Alcance 75 de Stamina e 75 de Força/Espada para o Haki do Armamento.",
+    "Viaje para a Ilha dos Macacos e fale com o Treinador Busoshoku.",
+    "Complete a missão do Haki do Armamento (leva cerca de 10-20 minutos).",
+    "Treine o Haki do Armamento para 200 estatísticas.",
+    "Alcance 200 de Stamina para o Haki da Observação.",
+    "Viaje para a Ilha do Deserto e fale com o NPC Katakuri.",
+    "Inicie o teste do Haki da Observação e leve 10 golpes do chefe com o Haki da Observação ativo."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Explorando Rifts e o Abismo">
+Rifts e o Abismo representam alguns dos conteúdos mais desafiadores e recompensadores em Anime Limitless. Essas áreas são projetadas para jogadores que buscam equipamentos poderosos, materiais de evolução e desafios supremos. Compreender seu propósito e requisitos é fundamental para progredir no endgame.
+
+| Característica | Localização | Propósito | Drops Chave | Requisitos | Notas |
+| :------ | :------- | :------ | :-------- | :----------- | :---- |
+| **Kid Buu Rift** | West City (canto) | Obter itens para evolução de Alma, acessórios, núcleos | Materiais de evolução de Alma, acessórios | Varia por chefe | Um dos dois rifts lendários |
+| **Goku SSJ4 Rift** | Ilha da Trufa | Obter itens para evolução de Alma, acessórios, núcleos | Materiais de evolução de Alma, acessórios | Varia por chefe | Um dos dois rifts lendários |
+| **O Abismo** | Ilha da Trufa (Guardião do Abismo) | Melhor armadura, criador para a melhor arma | Melhor armadura, materiais de criação de armas | 3.000 Poder Total | Conteúdo de endgame, extremamente difícil |
+
+<Callout type="success" title="Estratégia de Equipamento de Endgame">
+O Abismo oferece a melhor armadura e materiais para criar a melhor arma do jogo. Embora alcançar 3.000 de Poder Total seja um grind significativo, as recompensas são incomparáveis e essenciais para maximizar o potencial do seu personagem.
+</Callout>
+
+O **Abismo** é explicitamente projetado para jogadores de endgame. Para sequer entrar, você precisa de um **Poder Total** combinado de **3.000** em todas as suas estatísticas. Este é um objetivo formidável que exigirá um grind extenso e otimização de sua build. Ao entrar, você enfrentará um chefe que dropa a melhor armadura do jogo e encontrará um criador para o que se acredita ser a melhor arma, exigindo núcleos raros de todo o jogo.
+
+</Section>
+
+<Section icon={Trophy} title="Títulos e Recursos Adicionais">
+Além das estatísticas e habilidades, Anime Limitless oferece vários recursos que aprimoram a jogabilidade e a personalização do personagem. Títulos, por exemplo, são mais do que apenas cosméticos; eles fornecem aumentos tangíveis de estatísticas e bônus, tornando sua aquisição uma parte valiosa de sua progressão.
+
+<CardGrid cols={2}>
+  <Card title="Títulos">
+    - **Bônus Funcionais**: Títulos concedem aumentos reais de estatísticas, não apenas prestígio.
+    - **Rastreamento**: Verifique a seção "bloqueados" no menu para ver os requisitos de cada título.
+    - **Personalização**: Escolha títulos que complementem sua build ou estilo de jogo.
+  </Card>
+  <Card title="Estilos de Luta">
+    - **Karatê Homem-Peixe**: Aprenda no Parque Arlong por 30.000 Ouro e uma missão.
+    - **Perna Negra**: Aprenda na Ilha do Deserto (perto de Gara) por 150 de Força, 25 Cicatrizes (de NPCs do Deserto) e 40.000 Dinheiro.
+    - **Melhorar Combate**: Embora não sejam tão fortes quanto outras habilidades, eles adicionam variedade.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Maximizando o Ouro no Início do Jogo">
+Para adquirir estilos de luta como Karatê Homem-Peixe e Perna Negra, você precisará de uma quantidade significativa de ouro. Concentre-se em completar missões e derrotar chefes que oferecem boas recompensas em dinheiro no início para financiar essas aquisições.
+</Callout>
+
+**Códigos** são outra excelente maneira de acelerar sua progressão. Os desenvolvedores frequentemente lançam códigos que concedem aumentos de estatísticas, dinheiro ou outros brindes valiosos. Sempre verifique os códigos ativos mais recentes para ter uma vantagem.
+
+| Código | Descrição | Status (a partir de 17/05/2026) |
+| :--- | :---------- | :------------------------ |
+| **RELEASE** | x2 EXP de Todas as Estatísticas | Ativo (NOVO) |
+| **LIMITLESS** | Brindes | Ativo |
+| **UPDATEONE** | Brindes | Ativo |
+| **THANKS400K** | Brindes | Ativo |
+| **SORRYFORBUGS** | Brindes | Ativo |
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes sobre a Progressão em Anime Limitless">
+
+<FAQ items={[
+  {
+    question: "Como faço para grindar estatísticas de forma eficaz em Anime Limitless?",
+    answer: "O grind eficaz de estatísticas envolve o uso ativo das habilidades ou armas associadas à estatística que você deseja aumentar. Por exemplo, usar uma espada aumentará sua estatística de espada. Ativar 'Auto M1s' nas configurações e usar o recurso 'acompanhar missão' para estatísticas específicas pode aumentar significativamente sua eficiência de grind."
+  },
+  {
+    question: "O que são Almas e como consigo as melhores?",
+    answer: "Almas são habilidades especiais poderosas que aprimoram seu personagem. Você pode obtê-las em baús dropados por chefes ou comprando-as do Negociante de Almas em West City por 25.000 Ouro. As Almas Lendárias são as mais raras e poderosas, frequentemente encontradas através de drops de chefes ou sorte nos giros do negociante."
+  },
+  {
+    question: "Quais são os requisitos para entrar no Abismo?",
+    answer: "Para entrar no Abismo, você deve ter um 'Poder Total' combinado de 3.000 em todas as suas estatísticas. Este é um desafio de endgame, e o Abismo rejeita aqueles que não atingem esse limite de poder. Ele abriga a melhor armadura e materiais para criar a melhor arma do jogo."
+  },
+  {
+    question: "Os títulos realmente fornecem benefícios em Anime Limitless?",
+    answer: "Sim, ao contrário de muitos jogos onde os títulos são puramente cosméticos, os títulos em Anime Limitless fornecem aumentos reais de estatísticas e bônus. Você pode ver os requisitos para títulos bloqueados em seu menu para desbloquear estrategicamente aqueles que mais beneficiam sua build."
+  }
+]} />
+
+</Section>

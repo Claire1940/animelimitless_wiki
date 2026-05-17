@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide de Raid Anime Limitless : Stratégies Optimales et Butins de Boss",
+  description: "Maîtrisez les raids d'Anime Limitless grâce à notre guide complet, couvrant les mécaniques des boss, les constructions optimales et les stratégies de farming de butin précieux pour une progression rapide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Anime+Limitless+Raid+Guide",
+  date: "2026-05-17",
+  author: "Équipe Wiki d'Anime Limitless"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Priorisez la préparation du **guide de raid Anime Limitless** avec des statistiques solides, des Âmes et du Haki.
+- Utilisez des **codes actifs comme RELEASE** pour des bonus d'EXP de statistique x2 avant de défier les raids.
+- Comprenez les **mécaniques et les schémas d'attaque des boss** pour maximiser les dégâts et la survie.
+- Concentrez-vous sur le farming de l'**Essence de Boss** et de butins spécifiques pour des améliorations de construction cruciales.
+- Coordonnez-vous avec vos coéquipiers dans les **raids multijoueurs** pour des nettoyages efficaces et de meilleures récompenses.
+</Callout>
+
+<Section icon={Swords} title="Comprendre les Raids d'Anime Limitless">
+Les raids dans Anime Limitless sont des rencontres difficiles conçues pour tester la force et l'optimisation de votre personnage. Réussir les raids récompense les joueurs avec des matériaux essentiels, des Essences de Boss et un équipement puissant qui sont cruciaux pour la progression en milieu et fin de partie. Contrairement au farming de monstres régulier, les raids nécessitent une préparation minutieuse, un combat stratégique et souvent, un travail d'équipe coordonné.
+
+Avant de vous lancer dans un raid, assurez-vous que votre personnage est adéquatement préparé. Cela signifie non seulement avoir des statistiques élevées, mais aussi la bonne combinaison d'Âmes, de Races, de Traits et de Haki pour faire face aux capacités et résistances uniques du boss.
+
+<Callout type="tip" title="Liste de Contrôle de Préparation au Raid">
+Une base solide est la clé du succès en raid. Avant de tenter un raid, assurez-vous d'avoir optimisé la construction de base de votre personnage.
+
+<Checklist
+  id="raid-preparation"
+  title="Essentiels avant le Raid :"
+  items={[
+    "Échangez tous les codes actifs pour des bonus (par exemple, RELEASE pour x2 EXP de statistique)",
+    "Entraînez les statistiques de base (Force, Défense, Agilité) par le combat",
+    "Acquérez une Âme de haut niveau qui complète votre style de jeu",
+    "Assurez-vous d'avoir une combinaison Race et Trait bénéfique",
+    "Développez le Haki de l'Armement pour l'attaque et le Haki de l'Observation pour la défense",
+    "Familiarisez-vous avec les capacités connues du boss"
+  ]}
+/>
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégies Optimales de Construction pour les Raids">
+Votre construction est primordiale pour conquérir les raids d'Anime Limitless. Adopter une approche équilibrée entre l'attaque et la défense, ainsi que des capacités synergiques, augmentera considérablement votre taux de réussite.
+
+### Sélection d'Âmes pour les Raids
+Les Âmes sont un système majeur de capacités et de construction, qui influence la performance de votre personnage. Pour les raids, priorisez les Âmes qui offrent une amplification des dégâts, un contrôle des foules ou de solides capacités défensives.
+
+| Type d'Âme    | Avantage Principal                 | Application en Raid                                | Priorité  |
+| :------------ | :--------------------------------- | :------------------------------------------------- | :-------- |
+| **Offensive** | Dégâts élevés, Amplification de compétences | Réduire rapidement la vie du boss, Éliminer les adds rapidement | Très Élevée |
+| **Défensive** | Réduction des dégâts, Soins, Boucliers | Survivre aux mécaniques du boss, Maintenir de longs combats | Élevée    |
+| **Utilitaire** | Débuffs, Contrôle des foules, Buffs | Interrompre les capacités du boss, Soutenir l'équipe | Moyenne   |
+
+### Optimisation des Races et des Traits
+Les Races et les Traits offrent des bonus passifs qui peuvent changer la donne dans les raids. Visez des combinaisons qui améliorent votre rôle principal.
+
+| Rareté      | Focus Race/Trait              | Impact en Raid                                     | Recommandation                               |
+| :---------- | :---------------------------- | :------------------------------------------------- | :------------------------------------------- |
+| **Légendaire** | Amplification des statistiques de base | Boost significatif des dégâts ou de la survie      | **Gardez**, construisez autour             |
+| **Haut-Tier** | Efficacité au combat, génération de ressources | Nettoyages plus rapides, meilleure endurance       | **Gardez et testez**, excellent pour les runs cohérents |
+| **Mi-Tier**   | Petits boosts de statistiques, utilité de niche | Utilisable si pas de meilleure option, bon pour l'apprentissage | Utilisez temporairement, **reroll si possible**      |
+
+<Callout type="warning" title="Attention au Reroll">
+Les tours de Race et de Trait sont limités. Évitez de relancer des options de haute rareté précieuses, sauf si vous avez une voie d'amélioration claire ou de nombreux tours de rechange. Un tirage sous-optimal mais utilisable est préférable à gaspiller des tours sur la malchance.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mécaniques de Boss de Raid et Conseils de Combat">
+Chaque boss de raid dans Anime Limitless aura des schémas d'attaque uniques, des capacités spéciales et des vulnérabilités. Comprendre celles-ci est crucial pour un combat efficace.
+
+### Flux de Combat Général pour les Raids
+La boucle de base reste constante : combattre les ennemis, utiliser les capacités et gérer vos ressources. Cependant, dans les raids, le timing et le positionnement deviennent bien plus critiques.
+
+<Steps>
+  <Step num="1" title="Engagement Initial et Débuffs">
+    Commencez le combat en appliquant tous les débuffs que votre construction permet (par exemple, de certaines Âmes ou capacités). Cela affaiblit le boss pour les attaques ultérieures.
+  </Step>
+  <Step num="2" title="Phase de Dégâts et Rotation des Capacités">
+    Déchaînez vos principales capacités de dégâts, en vous concentrant sur une rotation optimale pour maximiser le DPS. Soyez attentif aux signaux du boss pour les attaques entrantes.
+  </Step>
+  <Step num="3" title="Manœuvres Défensives et Utilisation du Haki">
+    Esquivez ou bloquez activement les attaques du boss. Utilisez le Haki de l'Observation pour les dangers imminents et le Haki de l'Armement pour atténuer les dégâts ou briser les défenses.
+  </Step>
+  <Step num="4" title="Gestion des Ressources et Maintien">
+    Surveillez votre santé et votre énergie. Utilisez des potions ou des capacités de soin stratégiquement pour maintenir le maintien tout au long du combat.
+  </Step>
+  <Step num="5" title="S'adapter aux Changements de Phase">
+    Les boss de raid ont souvent plusieurs phases, modifiant leurs schémas d'attaque ou acquérant de nouvelles capacités. Adaptez votre stratégie en conséquence et concentrez-vous sur les nouvelles menaces (adds).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Haki dans les Raids">
+Le Haki est inestimable dans les raids. Le **Haki de l'Armement** améliore vos capacités offensives et réduit les dégâts entrants, tandis que le **Haki de l'Observation** vous permet de prédire et d'esquiver les attaques critiques du boss, augmentant considérablement votre survie. Ne négligez pas de les améliorer.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Farming des Butins de Raid et des Essences de Boss">
+Les boss de raid sont la source principale de butins précieux et d'Essences de Boss, qui sont vitaux pour la fabrication et l'amélioration d'équipement puissant. Un farming efficace implique des nettoyages constants et la compréhension des mécaniques de butin.
+
+### Récompenses Clés des Raids
+Les récompenses des raids sont souvent échelonnées, les objets plus rares ayant des taux de chute plus faibles. La persévérance est essentielle.
+
+| Type de Récompense | Importance       | Comment Optimiser le Farming                                |
+| :----------------- | :--------------- | :---------------------------------------------------------- |
+| **Essence de Boss**| **Critique**     | Requise pour les améliorations de haut niveau, priorisez les boss spécifiques |
+| **Matériaux Rares**| Élevée            | Utilisés dans la fabrication d'objets uniques, suivez les tables de butin des boss |
+| **Équipement Unique**| Élevée            | Potentiellement les meilleurs objets du jeu, souvent un faible taux de chute |
+| **EXP de Statistique**| Moyenne          | Source constante de progression, surtout avec des boosts |
+| **Or/Monnaie**     | Faible-Moyenne   | Progression générale, souvent secondaire aux autres butins |
+
+### Boucle de Farming de Butin
+Les combats de boss sont une boucle de farming. Préparez votre construction, battez le boss, suivez les butins utiles, puis répétez pour des améliorations plus puissantes.
+
+<CardGrid cols={2}>
+  <Card title="Nettoyage Efficace">
+    Concentrez-vous sur des temps de nettoyage constants. Un nettoyage légèrement plus lent mais garanti est préférable à des échecs fréquents. Optimisez votre construction pour le boss que vous pouvez battre de manière fiable.
+  </Card>
+  <Card title="Suivi des Butins">
+    Gardez un œil sur les matériaux dont vous avez besoin. Priorisez les boss qui laissent tomber des objets spécifiques pour vos objectifs de construction actuels. Le Trello officiel liste souvent les butins des boss.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Astuce de Récompense Communautaire">
+N'oubliez pas la clé de récompense communautaire **LIMITLESSGIFT** (réclamée auprès du PNJ Gojo de Récompense Communautaire à West City) qui octroie 3 Essences de Boss et 5 Tours de Race/Trait, vous donnant une longueur d'avance sur la préparation au raid.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tactiques Avancées de Raid et Progression">
+Une fois que vous maîtrisez les bases, concentrez-vous sur l'affinement de vos stratégies pour des nettoyages de raid plus rapides et plus efficaces, en particulier pour le contenu de fin de jeu.
+
+### Coordination d'Équipe
+Bien que de nombreux raids puissent être effectués en solo, certaines des rencontres les plus difficiles bénéficient immensément de la coordination d'équipe.
+
+| Rôle        | Responsabilités Clés                        | Traits/Âmes Essentiels                         |
+| :---------- | :------------------------------------------ | :--------------------------------------------- |
+| **Tank**    | Gestion de l'aggro, atténuation des dégâts | Défense élevée, PV, capacités de provocation, Âmes défensives |
+| **DPS**     | Maximisation des dégâts, ciblage boss/adds | Force/Agilité élevée, Âmes offensives, traits de critique |
+| **Support** | Soins, buffs, débuffs, contrôle des foules | Capacités de soin, Âmes utilitaires, réduction des temps de recharge |
+
+### Raids de Faille
+Les Failles sont souvent considérées comme du contenu de raid avancé, offrant des défis plus importants et potentiellement de meilleures récompenses. Elles ont des conditions d'entrée et des mécaniques spécifiques.
+
+<Callout type="info" title="Conditions d'Entrée des Failles">
+Les Failles nécessitent généralement un certain niveau de personnage, des objets spécifiques ou la complétion de quêtes prérequises pour y entrer. Vérifiez toujours le Trello officiel ou Discord pour les dernières exigences.
+</Callout>
+
+### Ressources Officielles pour les Mises à Jour des Raids
+Restez informé des nouveaux raids, des changements de boss et des mises à jour d'équilibre en consultant régulièrement les sources officielles.
+
+| Ressource          | Idéal Pour                                   | URL                                                              |
+| :----------------- | :------------------------------------------- | :--------------------------------------------------------------- |
+| **Trello Officiel**| Systèmes de jeu, mécaniques de boss, contenu à venir | [https://trello.com/b/UK3Ggwan/anime-limitless](https://trello.com/b/UK3Ggwan/anime-limitless) |
+| **Discord Officiel**| Mises à jour en temps réel, discussion communautaire, codes | [https://discord.com/invite/ca8tz9zr4C](https://discord.com/invite/ca8tz9zr4C) |
+| **Page de Jeu Roblox**| Lancer le jeu, liste d'expériences officielles | [https://www.roblox.com/games/99383863544987/Anime-Limitless](https://www.roblox.com/games/99383863544987/Anime-limitless) |
+
+</Section>
+
+<Section icon={Map} title="Foire aux Questions sur les Raids d'Anime Limitless">
+
+<FAQ items={[
+  {
+    question: "Quel est l'objectif principal d'un guide de raid Anime Limitless ?",
+    answer: "L'objectif principal d'un **guide de raid Anime Limitless** est de fournir aux joueurs des stratégies, des recommandations de construction et des mécaniques de boss pour réussir à nettoyer le contenu de raid et à farmer efficacement des récompenses précieuses comme les Essences de Boss."
+  },
+  {
+    question: "Quand devrais-je commencer à tenter des raids dans Anime Limitless ?",
+    answer: "Vous devriez commencer à tenter des raids après avoir une construction stable, de bonnes statistiques issues de l'entraînement, une combinaison optimisée d'Âme, de Race et de Trait, et avoir investi dans votre Haki. Se précipiter trop tôt dans les raids mènera probablement à la frustration."
+  },
+  {
+    question: "Quelle est l'importance de l'Essence de Boss pour la progression en raid ?",
+    answer: "L'Essence de Boss est extrêmement importante. C'est un matériau clé pour de nombreuses améliorations de haut niveau et la fabrication d'objets puissants qui amélioreront davantage votre personnage pour des défis plus difficiles. Priorisez son farming auprès des boss que vous pouvez vaincre de manière constante."
+  },
+  {
+    question: "Tous les raids d'Anime Limitless sont-ils conçus pour le multijoueur ?",
+    answer: "Bien que de nombreux raids puissent être effectués en solo avec une construction suffisamment solide, le contenu de raid le plus difficile, en particulier les Failles, bénéficie souvent grandement d'équipes multijoueurs coordonnées. La composition d'équipe (tank, DPS, support) peut améliorer considérablement les temps de nettoyage et les taux de réussite."
+  }
+]} />
+
+</Section>

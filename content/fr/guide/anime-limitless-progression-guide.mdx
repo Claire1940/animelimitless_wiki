@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide de Progression Anime Limitless : Maîtrisez les Stats, les Souls et le Haki",
+  description: "Plongez dans Anime Limitless avec notre guide de progression complet, couvrant le farm de statistiques, l'acquisition de Souls, l'entraînement au Haki et le contenu de fin de jeu pour créer votre personnage ultime.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Anime+Limitless+Progression",
+  date: "2026-05-17",
+  author: "Équipe du Wiki Anime Limitless",
+  keywords: "anime limitless, progression, guide, statistiques, souls, haki, abysse"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Guide de Progression Anime Limitless** : Concentrez-vous sur le **farm de statistiques** comme méthode principale de croissance du personnage.
+- **Système de Souls** : Acquérez des **Souls** puissantes via les coffres de boss ou le vendeur de West City pour améliorer votre build.
+- **Entraînement au Haki** : Maîtrisez le **Haki de l'Armement et de l'Observation** pour la défense et l'esquive.
+- **Failles (Rifts) & Abysse** : Affrontez les **Failles** pour les matériaux d'évolution et défiez l'**Abysse** pour l'équipement de fin de jeu.
+- **Codes** : Utilisez les **codes** actifs pour obtenir des boosts précieux et des cadeaux gratuits afin d'accélérer votre aventure.
+</Callout>
+
+<Section icon={Map} title="Comprendre la Progression de Base dans Anime Limitless">
+Anime Limitless plonge les joueurs dans un RPG anime dynamique où l'entraînement continu et les améliorations stratégiques sont essentiels pour devenir un protagoniste de shonen surpuissant. Contrairement aux systèmes traditionnels basés sur les niveaux, ce jeu met l'accent sur le **farm de statistiques** et l'acquisition de capacités puissantes. Chaque action, des attaques de base à l'utilisation de compétences spécifiques, contribue à la croissance de votre personnage.
+
+La progression de base repose sur le combat actif contre les ennemis et l'utilisation répétée de vos capacités. Plus vous vous entraînez, plus vos statistiques augmentent rapidement, reflétant ce sentiment classique d'anime où l'on repousse ses limites pour devenir plus fort. Ce système encourage l'engagement actif et l'expérimentation de différents builds.
+
+**Points Forts de la Vidéo :**
+- Explication du système de progression, axé sur les statistiques plutôt que sur le niveau du joueur.
+- Détails sur la façon de farmer des statistiques spécifiques en équipant les objets correspondants (ex : épée pour la stat d'épée).
+- Utilisation de la fonction "track quest" pour cibler des gains de statistiques précis.
+- Aperçu du flux global de progression du jeu.
+
+<YouTubeEmbed videoId="QHGnC738Yj0" title="Le MEILLEUR GUIDE DE SORTIE... | Anime Limitless" />
+
+<Callout type="tip" title="Efficacité du Farm de Stats">
+Activez toujours les **Auto M1s** dans vos paramètres. Cette fonctionnalité farm automatiquement les statistiques de votre objet équipé pendant que vous progressez, rendant votre progression beaucoup plus efficace, surtout lors des sessions AFK.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Système de Niveaux">
+    - **Niveau du Joueur** : Progresse via les quêtes, moins critique que les statistiques.
+    - **Farm de Stats** : Progression principale, augmente selon l'utilisation (ex : attaques à l'épée pour la stat d'épée).
+    - **Suivi de Quête** : Utilisez cette fonction pour vous concentrer sur des gains de stats spécifiques.
+  </Card>
+  <Card title="Philosophie de Progression">
+    - **Entraînement Actif** : La croissance vient du combat et de l'utilisation des capacités.
+    - **Personnalisation du Build** : Influencée par les Souls, les Races et les Traits.
+    - **Amélioration Continue** : Chaque combat contribue à l'évolution du personnage.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Acquérir et Utiliser les Souls">
+Les Souls sont des capacités spéciales puissantes qui impactent considérablement votre build dans Anime Limitless. Obtenir des Souls fortes est un élément majeur de la progression, car elles peuvent changer radicalement vos performances au combat et vos options stratégiques. Les Souls ont différentes raretés, de Commune à Légendaire, les raretés supérieures offrant des effets plus puissants.
+
+Il existe deux méthodes principales pour acquérir des Souls, chacune ayant ses propres défis et récompenses. Comprendre ces méthodes est crucial pour optimiser la puissance de votre personnage.
+
+| Source | Méthode | Coût/Condition | Rareté | Notes |
+| :----- | :----- | :--------------- | :----------- | :---- |
+| **Butin de Boss** | Vaincre des boss, chance d'obtenir des coffres | Difficulté du boss | Commune à Légendaire | Imprévisible, mais gratuit. Les Souls Légendaires sont rares. |
+| **Vendeur de Souls** | Acheter auprès du PNJ à West City | 25 000 Or par tirage | Commune à Légendaire | Accès constant, mais nécessite un investissement important en or. |
+
+<Callout type="warning" title="Apparition et Disparition des Souls">
+Les Souls **apparaissent naturellement dans le monde toutes les 30 minutes** et **disparaissent après 20 minutes** si elles ne sont pas ramassées. Soyez vigilant et explorez fréquemment pour sécuriser des pouvoirs rares avant qu'ils ne s'évaporent ou que d'autres joueurs ne les trouvent.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Farm de Boss pour les Coffres">
+    Localisez et battez divers boss sur les différentes îles. Ces boss ont une chance de lâcher des coffres après leur défaite. Ouvrez ces coffres pour tenter de recevoir une Soul. Cette méthode est gratuite mais repose sur la chance.
+  </Step>
+  <Step num="2" title="Visite du Vendeur de Souls">
+    Rendez-vous à **West City** et trouvez le PNJ Vendeur de Souls. Vous pouvez lui acheter des Souls pour **25 000 Or chacune**. Cela offre un moyen plus régulier, bien que coûteux, d'obtenir de nouvelles Souls.
+  </Step>
+  <Step num="3" title="Réinitialisation de Soul">
+    Si vous n'êtes pas satisfait de votre Soul actuelle, vous pouvez la réinitialiser à West City pour **150 Gemmes**. Les gemmes s'obtiennent généralement via les quêtes ou en combattant des boss. Cela permet d'optimiser votre build sans tout recommencer.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Maîtriser les Capacités de Haki">
+Les capacités de Haki sont essentielles tant pour l'attaque que pour la défense dans Anime Limitless, offrant des avantages significatifs au combat. Il existe deux types principaux de Haki : le Haki de l'Armement et le Haki de l'Observation. Chacun offre des bénéfices uniques et nécessite un entraînement spécifique.
+
+| Type de Haki | Lieu d'Apprentissage | Conditions | Bénéfice Principal | Méthode d'Entraînement |
+| :-------- | :---------------- | :----------- | :-------------- | :-------------- |
+| **Armement** | Monkey Island (Entraîneur Busoshoku) | 75 Endurance, 75 Force/Épée | Défense et puissance d'attaque accrues | L'utiliser en combat ; quête de l'entraîneur |
+| **Observation** | Desert Island (PNJ Katakuri) | Haki de l'Armement, 200 stats Haki, 200 Endurance | Esquive des attaques, perception accrue | Se faire toucher 10 fois par un boss avec le Haki actif |
+
+<Callout type="info" title="Conseil d'Entraînement au Haki">
+Le Haki de l'Observation vous permet d'esquiver les attaques entrantes, une compétence critique pour survivre aux rencontres les plus difficiles. Une fois acquis, utilisez-le activement en combat pour le faire progresser et rendre votre personnage beaucoup plus agile.
+</Callout>
+
+<Checklist
+  id="haki-training"
+  title="Liste de Contrôle pour l'Acquisition du Haki :"
+  items={[
+    "Atteindre 75 d'Endurance & 75 de Force/Épée pour le Haki de l'Armement.",
+    "Voyager vers Monkey Island et parler à l'Entraîneur Busoshoku.",
+    "Terminer la quête du Haki de l'Armement (environ 10-20 minutes).",
+    "Entraîner le Haki de l'Armement jusqu'à 200 points de stats.",
+    "Atteindre 200 d'Endurance pour le Haki de l'Observation.",
+    "Voyager vers Desert Island et parler au PNJ Katakuri.",
+    "Lancer l'épreuve du Haki de l'Observation et se faire toucher 10 fois par le boss avec l'Observation activée."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Explorer les Failles (Rifts) et l'Abysse">
+Les Failles et l'Abysse représentent certains des contenus les plus difficiles et les plus gratifiants d'Anime Limitless. Ces zones sont conçues pour les joueurs cherchant de l'équipement puissant, des matériaux d'évolution et des défis ultimes. Comprendre leur but et leurs conditions est la clé pour progresser vers le endgame.
+
+| Fonctionnalité | Lieu | But | Butins Clés | Conditions | Notes |
+| :------ | :------- | :------ | :-------- | :----------- | :---- |
+| **Faille Kid Buu** | West City (coin) | Obtenir des objets pour l'évolution de Soul, accessoires, cœurs | Matériaux d'évolution, accessoires | Varie selon le boss | L'une des deux failles légendaires |
+| **Faille Goku SSJ4** | Truffle Island | Obtenir des objets pour l'évolution de Soul, accessoires, cœurs | Matériaux d'évolution, accessoires | Varie selon le boss | L'une des deux failles légendaires |
+| **L'Abysse** | Truffle Island (Gardien de l'Abysse) | Meilleure armure, artisan pour la meilleure arme | Meilleure armure, matériaux d'artisanat d'arme | 3 000 de Puissance Totale | Contenu endgame, extrêmement difficile |
+
+<Callout type="success" title="Stratégie d'Équipement de Fin de Jeu">
+L'Abysse offre la meilleure armure et les matériaux nécessaires pour fabriquer la meilleure arme du jeu. Bien qu'atteindre 3 000 de Puissance Totale soit un long farm, les récompenses sont inégalées et essentielles pour maximiser le potentiel de votre personnage.
+</Callout>
+
+L'**Abysse** est explicitement conçu pour les joueurs de haut niveau. Pour y entrer, vous avez besoin d'une **Puissance Totale combinée de 3 000** sur l'ensemble de vos statistiques. C'est un objectif redoutable qui nécessitera un farm intensif et une optimisation de votre build. Une fois à l'intérieur, vous affronterez un boss qui lâche la meilleure armure du jeu et rencontrerez un artisan pour ce qui est considéré comme la meilleure arme, nécessitant des cœurs rares provenant de tout le jeu.
+
+</Section>
+
+<Section icon={Trophy} title="Titres et Fonctionnalités Supplémentaires">
+Au-delà des statistiques et des capacités, Anime Limitless propose diverses fonctionnalités qui améliorent le gameplay et la personnalisation du personnage. Les titres, par exemple, sont plus que de simples cosmétiques ; ils offrent des bonus de statistiques tangibles, faisant de leur acquisition une partie précieuse de votre progression.
+
+<CardGrid cols={2}>
+  <Card title="Titres">
+    - **Bonus Fonctionnels** : Les titres accordent de réels boosts de statistiques, pas seulement du prestige.
+    - **Suivi** : Consultez la section "verrouillée" dans le menu pour voir les conditions de chaque titre.
+    - **Personnalisation** : Choisissez des titres qui complètent votre build ou votre style de jeu.
+  </Card>
+  <Card title="Styles de Combat">
+    - **Karaté Homme-Poisson** : S'apprend à Arlong Park pour 30 000 Or et une quête.
+    - **Black Leg** : S'apprend à Desert Island (près de Gara) contre 150 de Force, 25 Cicatrices (PNJ du désert) et 40 000 Cash.
+    - **Amélioration du Combat** : Bien que moins puissants que d'autres capacités, ils ajoutent de la variété.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Maximiser l'Or en Début de Jeu">
+Pour acquérir des styles de combat comme le Karaté Homme-Poisson et le Black Leg, vous aurez besoin d'une quantité importante d'or. Concentrez-vous sur l'accomplissement des quêtes et la défaite de boss offrant de bonnes récompenses en argent dès le début pour financer ces acquisitions.
+</Callout>
+
+Les **Codes** sont un autre excellent moyen d'accélérer votre progression. Les développeurs publient fréquemment des codes qui accordent des boosts de statistiques, de l'argent ou d'autres cadeaux précieux. Vérifiez toujours les derniers codes actifs pour prendre de l'avance.
+
+| Code | Description | Statut (au 17-05-2026) |
+| :--- | :---------- | :------------------------ |
+| **RELEASE** | x2 EXP toutes stats | Actif (NOUVEAU) |
+| **LIMITLESS** | Cadeaux gratuits | Actif |
+| **UPDATEONE** | Cadeaux gratuits | Actif |
+| **THANKS400K** | Cadeaux gratuits | Actif |
+| **SORRYFORBUGS** | Cadeaux gratuits | Actif |
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions sur la Progression dans Anime Limitless">
+
+<FAQ items={[
+  {
+    question: "Comment farmer efficacement les statistiques dans Anime Limitless ?",
+    answer: "Le farm efficace consiste à utiliser activement les capacités ou les armes associées à la statistique que vous souhaitez augmenter. Par exemple, utiliser une épée augmentera votre stat d'épée. Activer l'option 'Auto M1s' dans les paramètres et utiliser la fonction 'track quest' pour des stats spécifiques peut considérablement booster votre efficacité."
+  },
+  {
+    question: "Que sont les Souls et comment obtenir les meilleures ?",
+    answer: "Les Souls sont des capacités spéciales puissantes. Vous pouvez les obtenir via des coffres lâchés par les boss ou en les achetant au Vendeur de Souls à West City pour 25 000 Or. Les Souls Légendaires sont les plus rares et les plus puissantes, souvent trouvées via les boss ou des tirages chanceux chez le vendeur."
+  },
+  {
+    question: "Quelles sont les conditions pour entrer dans l'Abysse ?",
+    answer: "Pour entrer dans l'Abysse, vous devez avoir une 'Puissance Totale' combinée de 3 000 sur toutes vos statistiques. C'est un défi de fin de jeu, et l'Abysse rejette ceux qui n'atteignent pas ce seuil. On y trouve la meilleure armure et les matériaux pour forger la meilleure arme du jeu."
+  },
+  {
+    question: "Les titres apportent-ils vraiment des bénéfices dans Anime Limitless ?",
+    answer: "Oui, contrairement à beaucoup de jeux où les titres sont purement cosmétiques, les titres dans Anime Limitless offrent de réels boosts de statistiques et des bonus. Vous pouvez voir les conditions des titres verrouillés dans votre menu pour débloquer stratégiquement ceux qui profitent le plus à votre build."
+  }
+]} />
+
+</Section>

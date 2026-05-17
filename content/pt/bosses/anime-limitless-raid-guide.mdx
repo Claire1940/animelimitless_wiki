@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Raid de Anime Limitless: Estratégias Ideais e Drops de Chefes",
+  description: "Domine as raids de Anime Limitless com nosso guia abrangente, cobrindo mecânicas de chefes, builds ideais e estratégias valiosas de farming de drops para uma progressão rápida.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Anime+Limitless+Raid+Guide",
+  date: "2026-05-17",
+  author: "Equipe Wiki de Anime Limitless",
+  keywords: "anime limitless, raid, guia, boss essence, builds, roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Priorize a preparação para o **guia de raid de Anime Limitless** com atributos fortes, Almas (Souls) e Haki.
+- Use **códigos ativos como RELEASE** para bônus de x2 EXP de Atributos antes de desafiar as raids.
+- Entenda as **mecânicas dos chefes e padrões de ataque** para maximizar o dano e a sobrevivência.
+- Foque no farming de **Essência de Chefe (Boss Essence)** e drops específicos para upgrades cruciais de build.
+- Coordene com colegas de equipe em **raids multiplayer** para limpezas eficientes e melhores recompensas.
+</Callout>
+
+<Section icon={Swords} title="Entendendo as Raids de Anime Limitless">
+As raids em Anime Limitless são encontros desafiadores projetados para testar a força do seu personagem e a otimização da sua build. Concluir raids com sucesso recompensa os jogadores com materiais essenciais, Essências de Chefe e equipamentos poderosos que são cruciais para a progressão do mid ao late game. Diferente do farming regular de mobs, as raids exigem preparação cuidadosa, combate estratégico e, frequentemente, trabalho em equipe coordenado.
+
+Antes de mergulhar em uma raid, certifique-se de que seu personagem esteja adequadamente preparado. Isso significa não apenas ter atributos altos, mas também a combinação certa de Almas, Raças, Traços e Haki para enfrentar as habilidades e resistências únicas do chefe.
+
+<Callout type="tip" title="Checklist de Preparação para Raid">
+Uma base forte é a chave para o sucesso na raid. Antes de tentar qualquer raid, garanta que você otimizou a build principal do seu personagem.
+
+<Checklist
+  id="raid-preparation"
+  title="Essenciais Pré-Raid:"
+  items={[
+    "Resgate todos os códigos ativos para bônus (ex: RELEASE para x2 EXP de Atributos)",
+    "Treine atributos principais (Força, Defesa, Agilidade) através do combate",
+    "Adquira uma Alma de alto nível que complemente seu estilo de jogo",
+    "Garanta uma combinação benéfica de Raça e Traço",
+    "Desenvolva o Haki de Armamento para ataque e o Haki de Observação para defesa",
+    "Familiarize-se com as habilidades conhecidas do chefe"
+  ]}
+/>
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégias de Build Ideais para Raids">
+Sua build é fundamental para conquistar as raids de Anime Limitless. Focar em uma abordagem equilibrada entre ataque e defesa, junto com habilidades sinérgicas, aumentará significativamente sua taxa de sucesso.
+
+### Seleção de Almas (Souls) para Raids
+As Almas são um sistema principal de habilidades e build, impactando o desempenho do seu personagem. Para raids, priorize Almas que ofereçam amplificação de dano, controle de grupo ou fortes capacidades defensivas.
+
+| Tipo de Alma  | Benefício Principal                | Aplicação em Raid                                | Prioridade |
+| :------------ | :--------------------------------- | :----------------------------------------------- | :--------- |
+| **Ofensiva**  | Alto dano, amplificação de Skill   | Diminuir vida do chefe, limpar adds rapidamente  | Muito Alta |
+| **Defensiva** | Redução de dano, cura, escudos     | Sobreviver a mecânicas, sustentar lutas longas   | Alta       |
+| **Utilidade** | Debuffs, controle de grupo, buffs  | Interromper habilidades, apoiar a equipe         | Média      |
+
+### Otimização de Raça e Traço
+Raças e Traços fornecem bônus passivos que podem mudar o jogo em raids. Busque combinações que melhorem seu papel principal.
+
+| Raridade      | Foco de Raça/Traço            | Impacto na Raid                                 | Recomendação                                   |
+| :---------- | :---------------------------- | :---------------------------------------------- | :--------------------------------------------- |
+| **Lendária**  | Amplificação de atributos base| Aumento significativo no dano ou sobrevivência  | **Manter**, construa sua build em volta disso  |
+| **Alto Nível**| Eficiência de combate, recursos| Limpezas mais rápidas, melhor sustentação       | **Manter e testar**, ótimo para runs constantes|
+| **Nível Médio**| Pequenos bônus, utilidade nicho| Usável se não houver opção melhor               | Use temporariamente, **role novamente (reroll) quando possível** |
+
+<Callout type="warning" title="Cuidado ao Rodar Novamente (Reroll)">
+As rodadas de Raça e Traço são limitadas. Evite rodar novamente opções valiosas de alta raridade, a menos que você tenha um caminho de upgrade claro ou muitas rodadas sobrando. Uma rolagem sub-ótima, mas usável, é melhor do que desperdiçar rodadas com má sorte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Chefes de Raid e Dicas de Combate">
+Cada chefe de raid em Anime Limitless terá padrões de ataque únicos, habilidades especiais e vulnerabilidades. Entender isso é crucial para um combate eficaz.
+
+### Fluxo Geral de Combate para Raids
+O ciclo principal permanece consistente: lute contra inimigos, use habilidades e gerencie seus recursos. No entanto, em raids, o tempo (timing) e o posicionamento tornam-se muito mais críticos.
+
+<Steps>
+  <Step num="1" title="Engajamento Inicial e Debuffs">
+    Comece a luta aplicando quaisquer debuffs que sua build permita (ex: de certas Almas ou habilidades). Isso enfraquece o chefe para ataques subsequentes.
+  </Step>
+  <Step num="2" title="Fase de Dano e Rotação de Habilidades">
+    Desperte suas principais habilidades de dano, focando na rotação ideal para maximizar o DPS. Preste atenção aos sinais do chefe para ataques iminentes.
+  </Step>
+  <Step num="3" title="Manobras Defensivas e Uso de Haki">
+    Esquive ou bloqueie ativamente os ataques do chefe. Utilize o Haki de Observação para perigos iminentes e o Haki de Armamento para mitigar danos ou quebrar defesas.
+  </Step>
+  <Step num="4" title="Gerenciamento de Recursos e Sustentação">
+    Monitore sua vida e energia. Use poções ou habilidades de cura estrategicamente para manter a sustentação durante toda a luta.
+  </Step>
+  <Step num="5" title="Adaptar-se a Mudanças de Fase">
+    Chefes de raid geralmente têm múltiplas fases, mudando seus padrões de ataque ou ganhando novas habilidades. Adapte sua estratégia e foque em novas ameaças (adds).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Haki em Raids">
+O Haki é inestimável em raids. O **Haki de Armamento** melhora suas capacidades ofensivas e reduz o dano recebido, enquanto o **Haki de Observação** permite prever e esquivar de ataques críticos do chefe, aumentando significativamente sua sobrevivência. Não negligencie o upgrade destes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Farming de Drops de Raid e Essências de Chefe">
+Os chefes de raid são a principal fonte de drops valiosos e Essências de Chefe, que são vitais para criar e melhorar equipamentos poderosos. O farming eficiente envolve limpezas consistentes e compreensão das mecânicas de drop.
+
+### Recompensas Principais de Raid
+As recompensas das raids são frequentemente divididas em níveis, com itens mais raros tendo taxas de drop menores. Persistência é a chave.
+
+| Tipo de Recompensa | Importância      | Como Otimizar o Farming                                     |
+| :----------------- | :--------------- | :---------------------------------------------------------- |
+| **Essência Chefe** | **Crítica**      | Necessária para upgrades de alto nível, foque em chefes específicos |
+| **Materiais Raros**| Alta             | Usados na criação de itens únicos, acompanhe as tabelas de drop |
+| **Equip. Único**   | Alta             | Potencialmente os melhores itens (BiS), taxa de drop baixa  |
+| **EXP de Atrib.**  | Média            | Fonte consistente de progressão, especialmente com bônus    |
+| **Ouro/Moeda**     | Baixa-Média      | Progressão geral, geralmente secundário a outros drops      |
+
+### Ciclo de Farming de Drops
+As lutas contra chefes são um ciclo de farming. Prepare sua build, vença o chefe, rastreie drops úteis e repita para upgrades mais fortes.
+
+<CardGrid cols={2}>
+  <Card title="Limpeza Eficiente">
+    Foque em tempos de conclusão consistentes. Uma limpeza um pouco mais lenta, mas garantida, é melhor do que falhar frequentemente. Otimize sua build para o chefe que você consegue derrotar com segurança.
+  </Card>
+  <Card title="Rastreamento de Drops">
+    Fique de olho em quais materiais você precisa. Priorize chefes que dropam itens específicos para seus objetivos atuais de build. O Trello oficial frequentemente lista os drops dos chefes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Recompensa da Comunidade">
+Lembre-se de que a chave de recompensa da comunidade **LIMITLESSGIFT** (resgatada no NPC Community Reward Gojo em West City) concede 3 Essências de Chefe e 5 Rodadas de Raça/Traço, dando a você uma vantagem na preparação para raids.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Táticas Avançadas de Raid e Progressão">
+Depois de dominar o básico, foque em refinar suas estratégias para limpezas de raid mais rápidas e eficientes, especialmente para o conteúdo de endgame.
+
+### Coordenação de Equipe
+Embora muitas raids possam ser feitas solo, alguns dos encontros mais difíceis se beneficiam imensamente da coordenação da equipe.
+
+| Função      | Responsabilidades Principais                    | Traços/Almas Essenciais                        |
+| :---------- | :---------------------------------------------- | :--------------------------------------------- |
+| **Tank**    | Gerenciamento de aggro, mitigação de dano       | Defesa Alta, HP, habilidades de provocação, Almas defensivas |
+| **DPS**     | Maximizar saída de dano, focar no chefe/adds    | Força/Agilidade Alta, Almas ofensivas, traços de crítico |
+| **Suporte** | Cura, buffs, debuffs, controle de grupo         | Habilidades de cura, Almas de utilidade, redução de cooldown |
+
+### Raids de Fenda (Rifts)
+As Fendas são frequentemente consideradas conteúdo de raid avançado, oferecendo desafios maiores e recompensas potencialmente melhores. Elas têm condições de entrada e mecânicas específicas.
+
+<Callout type="info" title="Condições de Entrada na Fenda">
+As Fendas normalmente exigem um certo nível de personagem, itens específicos ou a conclusão de missões pré-requisito para entrar. Sempre verifique o Trello ou Discord oficial para os requisitos mais recentes.
+</Callout>
+
+### Recursos Oficiais para Atualizações de Raid
+Mantenha-se informado sobre novas raids, mudanças em chefes e atualizações de equilíbrio verificando regularmente as fontes oficiais.
+
+| Recurso            | Melhor Para                                  | URL                                                              |
+| :----------------- | :------------------------------------------- | :--------------------------------------------------------------- |
+| **Trello Oficial** | Sistemas de jogo, mecânicas, conteúdo futuro | [https://trello.com/b/UK3Ggwan/anime-limitless](https://trello.com/b/UK3Ggwan/anime-limitless) |
+| **Discord Oficial**| Atualizações em tempo real, comunidade, códigos| [https://discord.com/invite/ca8tz9zr4C](https://discord.com/invite/ca8tz9zr4C) |
+| **Página Roblox**  | Iniciar o jogo, listagem oficial da experiência| [https://www.roblox.com/games/99383863544987/Anime-Limitless](https://www.roblox.com/games/99383863544987/Anime-limitless) |
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes sobre as Raids de Anime Limitless">
+
+<FAQ items={[
+  {
+    question: "Qual é o objetivo principal de um guia de raid de Anime Limitless?",
+    answer: "O objetivo principal de um **guia de raid de Anime Limitless** é fornecer aos jogadores estratégias, recomendações de build e mecânicas de chefes para concluir com sucesso o conteúdo de raid e farmar eficientemente recompensas valiosas como Essências de Chefe."
+  },
+  {
+    question: "Quando devo começar a tentar as raids em Anime Limitless?",
+    answer: "Você deve começar a tentar as raids depois de ter uma build estável, bons atributos de treinamento, uma combinação otimizada de Alma, Raça e Traço, e ter investido em seu Haki. Apressar as raids cedo demais provavelmente levará à frustração."
+  },
+  {
+    question: "Quão importante é a Essência de Chefe para a progressão na raid?",
+    answer: "A Essência de Chefe é extremamente importante. É um material chave para muitos upgrades de alto nível e para a criação de itens poderosos que fortalecerão ainda mais seu personagem para desafios mais difíceis. Priorize farmá-la de chefes que você consegue derrotar consistentemente."
+  },
+  {
+    question: "Todas as raids em Anime Limitless são projetadas para multiplayer?",
+    answer: "Embora muitas raids possam ser feitas solo com uma build forte o suficiente, o conteúdo de raid mais desafiador, especialmente as Fendas, muitas vezes se beneficia muito de equipes multiplayer coordenadas. A composição da equipe (tank, DPS, suporte) pode melhorar significativamente os tempos de conclusão e as taxas de sucesso."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Raids de Anime Limitless: Estrategias Óptimas y Botines de Jefes",
+  description: "Domina las raids de Anime Limitless con nuestra guía completa, que cubre mecánicas de jefes, construcciones óptimas y estrategias valiosas de farmeo de botines para una progresión rápida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Anime+Limitless+Raid+Guide",
+  date: "2026-05-17",
+  author: "Equipo de Wiki de Anime Limitless"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Prioriza la preparación de la **guía de raids de Anime Limitless** con estadísticas fuertes, Almas y Haki.
+- Usa **códigos activos como RELEASE** para obtener bonificaciones de EXP de estadísticas x2 antes de desafiar las raids.
+- Comprende las **mecánicas del jefe y los patrones de ataque** para maximizar el daño y la supervivencia.
+- Concéntrate en farmear **Esencia de Jefe** y botines específicos para mejoras cruciales de tu construcción.
+- Coordínate con tus compañeros de equipo en **raids multijugador** para clears eficientes y mejores recompensas.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo las Raids de Anime Limitless">
+Las raids en Anime Limitless son encuentros desafiantes diseñados para poner a prueba la fuerza de tu personaje y la optimización de tu construcción. Completar las raids con éxito recompensa a los jugadores con materiales esenciales, Esencias de Jefe y equipo poderoso que son cruciales para la progresión a medio y largo plazo del juego. A diferencia del farmeo de mobs regular, las raids requieren una preparación cuidadosa, combate estratégico y, a menudo, trabajo en equipo coordinado.
+
+Antes de sumergirte en una raid, asegúrate de que tu personaje esté adecuadamente preparado. Esto significa no solo tener estadísticas altas, sino también la combinación correcta de Almas, Razas, Rasgos y Haki para enfrentar las habilidades y resistencias únicas del jefe.
+
+<Callout type="tip" title="Lista de Verificación para la Preparación de Raids">
+Una base sólida es clave para el éxito en las raids. Antes de intentar cualquier raid, asegúrate de haber optimizado la construcción principal de tu personaje.
+
+<Checklist
+  id="raid-preparation"
+  title="Esenciales antes de la Raid:"
+  items={[
+    "Canjea todos los códigos activos para obtener bonificaciones (ej., RELEASE para EXP de estadísticas x2)",
+    "Entrena las estadísticas principales (Fuerza, Defensa, Agilidad) a través del combate",
+    "Adquiere un Alma de alto nivel que complemente tu estilo de juego",
+    "Asegura una combinación beneficiosa de Raza y Rasgo",
+    "Desarrolla Haki de Armamento para ataque y Haki de Observación para defensa",
+    "Familiarízate con las habilidades conocidas del jefe"
+  ]}
+/>
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategias Óptimas de Construcción para Raids">
+Tu construcción es primordial para conquistar las raids de Anime Limitless. Centrarse en un enfoque equilibrado entre ataque y defensa, junto con habilidades sinérgicas, aumentará significativamente tu tasa de éxito.
+
+### Selección de Almas para Raids
+Las Almas son un sistema importante de habilidades y construcción, que impacta el rendimiento de tu personaje. Para las raids, prioriza las Almas que ofrecen amplificación de daño, control de multitudes o fuertes capacidades defensivas.
+
+| Tipo de Alma  | Beneficio Principal                | Aplicación en Raid                               | Prioridad  |
+| :------------ | :--------------------------------- | :----------------------------------------------- | :--------- |
+| **Ofensiva**  | Alto daño, Amplificación de habilidad | Ráfaga de salud del jefe, Eliminación rápida de adds | Muy Alta   |
+| **Defensiva** | Reducción de daño, Curación, Escudos | Sobrevivir a mecánicas del jefe, Sostener peleas largas | Alta       |
+| **Utilidad**  | Debuffs, Control de multitudes, Buffs | Interrumpir habilidades del jefe, Apoyar al equipo | Media      |
+
+### Optimización de Raza y Rasgo
+Las Razas y Rasgos proporcionan bonificaciones pasivas que pueden cambiar el juego en las raids. Busca combinaciones que mejoren tu rol principal.
+
+| Rareza      | Enfoque de Raza/Rasgo       | Impacto en Raid                                   | Recomendación                                |
+| :---------- | :---------------------------- | :------------------------------------------------ | :------------------------------------------- |
+| **Legendaria** | Amplificación de estadísticas base | Aumento significativo de daño o supervivencia     | **Mantener**, construir alrededor de ella     |
+| **Alto Nivel** | Eficiencia de combate, generación de recursos | Clears más rápidos, mejor sustento               | **Mantener y probar**, excelente para runs consistentes |
+| **Nivel Medio** | Pequeñas mejoras de estadísticas, utilidad de nicho | Usable si no hay mejor opción, bueno para aprender | Usar temporalmente, **volver a tirar cuando sea posible** |
+
+<Callout type="warning" title="Precaución al Volver a Tirar">
+Los Giros de Raza y Rasgo son limitados. Evita volver a tirar opciones valiosas de alta rareza a menos que tengas un camino de mejora claro o suficientes giros de sobra. Un tiro subóptimo pero utilizable es mejor que desperdiciar giros por mala suerte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Jefes de Raid y Consejos de Combate">
+Cada jefe de raid en Anime Limitless tendrá patrones de ataque únicos, habilidades especiales y vulnerabilidades. Comprender esto es crucial para un combate efectivo.
+
+### Flujo General de Combate para Raids
+El ciclo principal sigue siendo consistente: luchar contra enemigos, usar habilidades y gestionar tus recursos. Sin embargo, en las raids, el timing y el posicionamiento se vuelven mucho más críticos.
+
+<Steps>
+  <Step num="1" title="Inicio del Combate y Debuffs">
+    Comienza la lucha aplicando cualquier debuff que tu construcción permita (ej., de ciertas Almas o habilidades). Esto debilita al jefe para los ataques posteriores.
+  </Step>
+  <Step num="2" title="Fase de Daño y Rotación de Habilidades">
+    Libera tus habilidades de daño principales, centrándote en una rotación óptima para maximizar el DPS. Presta atención a las señales del jefe para los ataques entrantes.
+  </Step>
+  <Step num="3" title="Maniobras Defensivas y Uso de Haki">
+    Esquiva o bloquea activamente los ataques del jefe. Utiliza Haki de Observación para el peligro entrante y Haki de Armamento para mitigar el daño o romper defensas.
+  </Step>
+  <Step num="4" title="Gestión de Recursos y Sostenimiento">
+    Monitorea tu salud y energía. Usa pociones o habilidades de curación estratégicamente para mantener el sustento durante toda la lucha.
+  </Step>
+  <Step num="5" title="Adaptarse a los Cambios de Fase">
+    Los jefes de raid a menudo tienen múltiples fases, cambiando sus patrones de ataque o adquiriendo nuevas habilidades. Adapta tu estrategia en consecuencia y concéntrate en las nuevas amenazas (adds).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Haki en Raids">
+El Haki es invaluable en las raids. El **Haki de Armamento** mejora tus capacidades ofensivas y reduce el daño entrante, mientras que el **Haki de Observación** te permite predecir y esquivar ataques críticos del jefe, aumentando significativamente tu supervivencia. No descuides mejorarlos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Farmeo de Botines de Raid y Esencias de Jefe">
+Los jefes de raid son la fuente principal de botines valiosos y Esencias de Jefe, que son vitales para la creación y mejora de equipo poderoso. El farmeo eficiente implica clears consistentes y la comprensión de las mecánicas de botín.
+
+### Recompensas Clave de las Raids
+Las recompensas de las raids a menudo están escalonadas, con objetos más raros que tienen tasas de caída más bajas. La persistencia es clave.
+
+| Tipo de Recompensa | Importancia      | Cómo Optimizar el Farmeo                                    |
+| :---------------- | :--------------- | :---------------------------------------------------------- |
+| **Esencia de Jefe** | **Crítica**      | Requerida para mejoras de alto nivel, prioriza jefes específicos |
+| **Materiales Raros** | Alta             | Usados en la creación de objetos únicos, consulta las tablas de botín de jefes |
+| **Equipo Único**  | Alta             | Potencialmente los mejores objetos, a menudo con baja tasa de caída |
+| **EXP de Estadística** | Media            | Fuente consistente de progresión, especialmente con bonificaciones |
+| **Oro/Moneda**    | Baja-Media       | Progresión general, a menudo secundaria a otros botines     |
+
+### Bucle de Farmeo de Botines
+Las peleas contra jefes son un bucle de farmeo. Prepara tu construcción, derrota al jefe, rastrea los botines útiles y luego repite para obtener mejoras más fuertes.
+
+<CardGrid cols={2}>
+  <Card title="Clear Eficiente">
+    Concéntrate en tiempos de clear consistentes. Un clear un poco más lento pero garantizado es mejor que fallar con frecuencia. Optimiza tu construcción para el jefe que puedas vencer de forma fiable.
+  </Card>
+  <Card title="Seguimiento de Botines">
+    Mantente atento a los materiales que necesitas. Prioriza a los jefes que sueltan objetos específicos para tus objetivos de construcción actuales. El Trello oficial a menudo lista los botines de los jefes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Recompensa de la Comunidad">
+Recuerda que la clave de recompensa de la comunidad **LIMITLESSGIFT** (reclamada del NPC Gojo de Recompensa de la Comunidad en West City) otorga 3 Esencias de Jefe y 5 Giros de Raza/Rasgo, dándote una ventaja en la preparación para las raids.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas Avanzadas de Raid y Progresión">
+Una vez que hayas dominado lo básico, concéntrate en refinar tus estrategias para clears de raid más rápidos y eficientes, especialmente para el contenido de endgame.
+
+### Coordinación de Equipo
+Aunque muchas raids pueden ser completadas en solitario, algunos de los encuentros más difíciles se benefician enormemente de la coordinación del equipo.
+
+| Rol         | Responsabilidades Clave                      | Rasgos/Almas Esenciales                         |
+| :---------- | :------------------------------------------- | :---------------------------------------------- |
+| **Tanque**  | Gestión de aggro, mitigación de daño         | Alta Defensa, HP, habilidades de provocación, Almas defensivas |
+| **DPS**     | Maximizar la producción de daño, centrarse en el jefe/adds | Alta Fuerza/Agilidad, Almas ofensivas, rasgos de crítico |
+| **Soporte** | Curación, buffs, debuffs, control de multitudes | Habilidades de curación, Almas de utilidad, reducción de enfriamiento |
+
+### Raids de Grietas
+Las Grietas a menudo se consideran contenido de raid avanzado, ofreciendo mayores desafíos y potencialmente mejores recompensas. Tienen condiciones de entrada y mecánicas específicas.
+
+<Callout type="info" title="Condiciones de Entrada a las Grietas">
+Las Grietas suelen requerir un cierto nivel de personaje, objetos específicos o la finalización de misiones previas para entrar. Siempre consulta el Trello oficial o Discord para conocer los últimos requisitos.
+</Callout>
+
+### Recursos Oficiales para Actualizaciones de Raids
+Mantente informado sobre nuevas raids, cambios de jefes y actualizaciones de equilibrio consultando regularmente las fuentes oficiales.
+
+| Recurso           | Lo mejor para                                | URL                                                              |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------- |
+| **Trello Oficial**| Sistemas de juego, mecánicas de jefes, contenido próximo | [https://trello.com/b/UK3Ggwan/anime-limitless](https://trello.com/b/UK3Ggwan/anime-limitless) |
+| **Discord Oficial**| Actualizaciones en tiempo real, discusión de la comunidad, códigos | [https://discord.com/invite/ca8tz9zr4C](https://discord.com/invite/ca8tz9zr4C) |
+| **Página de Juego de Roblox**| Lanzar el juego, listado oficial de experiencias | [https://www.roblox.com/games/99383863544987/Anime-Limitless](https://www.roblox.com/games/99383863544987/Anime-limitless) |
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre las Raids de Anime Limitless">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal de una guía de raids de Anime Limitless?",
+    answer: "El objetivo principal de una **guía de raids de Anime Limitless** es proporcionar a los jugadores estrategias, recomendaciones de construcción y mecánicas de jefe para superar con éxito el contenido de las raids y farmear eficientemente recompensas valiosas como las Esencias de Jefe."
+  },
+  {
+    question: "¿Cuándo debo empezar a intentar raids en Anime Limitless?",
+    answer: "Debes empezar a intentar raids después de tener una construcción estable, buenas estadísticas de entrenamiento, una combinación optimizada de Alma, Raza y Rasgo, y haber invertido en tu Haki. Apresurarse a las raids demasiado pronto probablemente llevará a la frustración."
+  },
+  {
+    question: "¿Qué importancia tiene la Esencia de Jefe para la progresión en las raids?",
+    answer: "La Esencia de Jefe es extremadamente importante. Es un material clave para muchas mejoras de alto nivel y para la creación de objetos poderosos que mejorarán aún más tu personaje para desafíos más difíciles. Prioriza farmearla de los jefes que puedas derrotar consistentemente."
+  },
+  {
+    question: "¿Todas las raids en Anime Limitless están diseñadas para multijugador?",
+    answer: "Aunque muchas raids pueden ser completadas en solitario con una construcción lo suficientemente fuerte, el contenido de raid más desafiante, especialmente las Grietas, a menudo se beneficia enormemente de equipos multijugador coordinados. La composición del equipo (tanque, DPS, soporte) puede mejorar significativamente los tiempos de clear y las tasas de éxito."
+  }
+]} />
+
+</Section>

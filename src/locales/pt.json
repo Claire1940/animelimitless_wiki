@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "codes": "Codes",
+    "guide": "Guide",
+    "stats": "Stats",
+    "souls": "Souls",
+    "bosses": "Bosses",
+    "haki": "Haki",
+    "rewards": "Rewards",
+    "showcase": "Showcase"
   },
   "common": {
     "home": "Início",
