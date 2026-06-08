@@ -11,7 +11,6 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import ClientBody from '../ClientBody'
 import Analytics from '@/components/Analytics'
-import { SocialBarAd } from '@/components/ads'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
