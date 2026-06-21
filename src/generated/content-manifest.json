@@ -1,0 +1,682 @@
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "anime-limitless-boss-drops",
+        "file": "anime-limitless-boss-drops"
+      },
+      {
+        "slug": "anime-limitless-boss-locations",
+        "file": "anime-limitless-boss-locations"
+      },
+      {
+        "slug": "anime-limitless-bosses-guide",
+        "file": "anime-limitless-bosses-guide"
+      },
+      {
+        "slug": "anime-limitless-how-to-beat-bosses",
+        "file": "anime-limitless-how-to-beat-bosses"
+      },
+      {
+        "slug": "anime-limitless-raid-guide",
+        "file": "anime-limitless-raid-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-limitless-codes",
+        "file": "anime-limitless-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-limitless-beginner-guide",
+        "file": "anime-limitless-beginner-guide"
+      },
+      {
+        "slug": "anime-limitless-best-way-to-progress",
+        "file": "anime-limitless-best-way-to-progress"
+      },
+      {
+        "slug": "anime-limitless-how-to-play",
+        "file": "anime-limitless-how-to-play"
+      },
+      {
+        "slug": "anime-limitless-progression-guide",
+        "file": "anime-limitless-progression-guide"
+      },
+      {
+        "slug": "anime-limitless-release-guide",
+        "file": "anime-limitless-release-guide"
+      },
+      {
+        "slug": "anime-limitless-starter-guide",
+        "file": "anime-limitless-starter-guide"
+      },
+      {
+        "slug": "anime-limitless-tips",
+        "file": "anime-limitless-tips"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "anime-limitless-armament-haki",
+        "file": "anime-limitless-armament-haki"
+      },
+      {
+        "slug": "anime-limitless-haki-guide",
+        "file": "anime-limitless-haki-guide"
+      },
+      {
+        "slug": "anime-limitless-haki-requirements",
+        "file": "anime-limitless-haki-requirements"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-haki",
+        "file": "anime-limitless-how-to-get-haki"
+      },
+      {
+        "slug": "anime-limitless-observation-haki",
+        "file": "anime-limitless-observation-haki"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "anime-limitless-daily-rewards",
+        "file": "anime-limitless-daily-rewards"
+      },
+      {
+        "slug": "anime-limitless-free-rewards",
+        "file": "anime-limitless-free-rewards"
+      },
+      {
+        "slug": "anime-limitless-playtime-rewards",
+        "file": "anime-limitless-playtime-rewards"
+      },
+      {
+        "slug": "anime-limitless-update-rewards",
+        "file": "anime-limitless-update-rewards"
+      }
+    ],
+    "showcase": [
+      {
+        "slug": "anime-limitless-full-showcase",
+        "file": "anime-limitless-full-showcase"
+      },
+      {
+        "slug": "anime-limitless-gameplay",
+        "file": "anime-limitless-gameplay"
+      },
+      {
+        "slug": "anime-limitless-new-update",
+        "file": "anime-limitless-new-update"
+      },
+      {
+        "slug": "anime-limitless-roblox",
+        "file": "anime-limitless-roblox"
+      },
+      {
+        "slug": "anime-limitless-showcase",
+        "file": "anime-limitless-showcase"
+      }
+    ],
+    "souls": [
+      {
+        "slug": "anime-limitless-best-souls",
+        "file": "anime-limitless-best-souls"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-souls",
+        "file": "anime-limitless-how-to-get-souls"
+      },
+      {
+        "slug": "anime-limitless-soul-drop-rate",
+        "file": "anime-limitless-soul-drop-rate"
+      },
+      {
+        "slug": "anime-limitless-souls-guide",
+        "file": "anime-limitless-souls-guide"
+      },
+      {
+        "slug": "anime-limitless-souls-tier-list",
+        "file": "anime-limitless-souls-tier-list"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "anime-limitless-best-stats",
+        "file": "anime-limitless-best-stats"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-stronger",
+        "file": "anime-limitless-how-to-get-stronger"
+      },
+      {
+        "slug": "anime-limitless-stat-exp",
+        "file": "anime-limitless-stat-exp"
+      },
+      {
+        "slug": "anime-limitless-stats-farming",
+        "file": "anime-limitless-stats-farming"
+      },
+      {
+        "slug": "anime-limitless-stats-guide",
+        "file": "anime-limitless-stats-guide"
+      },
+      {
+        "slug": "anime-limitless-training-guide",
+        "file": "anime-limitless-training-guide"
+      }
+    ]
+  },
+  "es": {
+    "bosses": [
+      {
+        "slug": "anime-limitless-boss-drops",
+        "file": "anime-limitless-boss-drops"
+      },
+      {
+        "slug": "anime-limitless-boss-locations",
+        "file": "anime-limitless-boss-locations"
+      },
+      {
+        "slug": "anime-limitless-bosses-guide",
+        "file": "anime-limitless-bosses-guide"
+      },
+      {
+        "slug": "anime-limitless-how-to-beat-bosses",
+        "file": "anime-limitless-how-to-beat-bosses"
+      },
+      {
+        "slug": "anime-limitless-raid-guide",
+        "file": "anime-limitless-raid-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-limitless-codes",
+        "file": "anime-limitless-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-limitless-beginner-guide",
+        "file": "anime-limitless-beginner-guide"
+      },
+      {
+        "slug": "anime-limitless-best-way-to-progress",
+        "file": "anime-limitless-best-way-to-progress"
+      },
+      {
+        "slug": "anime-limitless-how-to-play",
+        "file": "anime-limitless-how-to-play"
+      },
+      {
+        "slug": "anime-limitless-progression-guide",
+        "file": "anime-limitless-progression-guide"
+      },
+      {
+        "slug": "anime-limitless-release-guide",
+        "file": "anime-limitless-release-guide"
+      },
+      {
+        "slug": "anime-limitless-starter-guide",
+        "file": "anime-limitless-starter-guide"
+      },
+      {
+        "slug": "anime-limitless-tips",
+        "file": "anime-limitless-tips"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "anime-limitless-armament-haki",
+        "file": "anime-limitless-armament-haki"
+      },
+      {
+        "slug": "anime-limitless-haki-guide",
+        "file": "anime-limitless-haki-guide"
+      },
+      {
+        "slug": "anime-limitless-haki-requirements",
+        "file": "anime-limitless-haki-requirements"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-haki",
+        "file": "anime-limitless-how-to-get-haki"
+      },
+      {
+        "slug": "anime-limitless-observation-haki",
+        "file": "anime-limitless-observation-haki"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "anime-limitless-daily-rewards",
+        "file": "anime-limitless-daily-rewards"
+      },
+      {
+        "slug": "anime-limitless-free-rewards",
+        "file": "anime-limitless-free-rewards"
+      },
+      {
+        "slug": "anime-limitless-playtime-rewards",
+        "file": "anime-limitless-playtime-rewards"
+      },
+      {
+        "slug": "anime-limitless-update-rewards",
+        "file": "anime-limitless-update-rewards"
+      }
+    ],
+    "showcase": [
+      {
+        "slug": "anime-limitless-full-showcase",
+        "file": "anime-limitless-full-showcase"
+      },
+      {
+        "slug": "anime-limitless-gameplay",
+        "file": "anime-limitless-gameplay"
+      },
+      {
+        "slug": "anime-limitless-new-update",
+        "file": "anime-limitless-new-update"
+      },
+      {
+        "slug": "anime-limitless-roblox",
+        "file": "anime-limitless-roblox"
+      },
+      {
+        "slug": "anime-limitless-showcase",
+        "file": "anime-limitless-showcase"
+      }
+    ],
+    "souls": [
+      {
+        "slug": "anime-limitless-best-souls",
+        "file": "anime-limitless-best-souls"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-souls",
+        "file": "anime-limitless-how-to-get-souls"
+      },
+      {
+        "slug": "anime-limitless-soul-drop-rate",
+        "file": "anime-limitless-soul-drop-rate"
+      },
+      {
+        "slug": "anime-limitless-souls-guide",
+        "file": "anime-limitless-souls-guide"
+      },
+      {
+        "slug": "anime-limitless-souls-tier-list",
+        "file": "anime-limitless-souls-tier-list"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "anime-limitless-best-stats",
+        "file": "anime-limitless-best-stats"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-stronger",
+        "file": "anime-limitless-how-to-get-stronger"
+      },
+      {
+        "slug": "anime-limitless-stat-exp",
+        "file": "anime-limitless-stat-exp"
+      },
+      {
+        "slug": "anime-limitless-stats-farming",
+        "file": "anime-limitless-stats-farming"
+      },
+      {
+        "slug": "anime-limitless-stats-guide",
+        "file": "anime-limitless-stats-guide"
+      },
+      {
+        "slug": "anime-limitless-training-guide",
+        "file": "anime-limitless-training-guide"
+      }
+    ]
+  },
+  "fr": {
+    "bosses": [
+      {
+        "slug": "anime-limitless-boss-drops",
+        "file": "anime-limitless-boss-drops"
+      },
+      {
+        "slug": "anime-limitless-boss-locations",
+        "file": "anime-limitless-boss-locations"
+      },
+      {
+        "slug": "anime-limitless-bosses-guide",
+        "file": "anime-limitless-bosses-guide"
+      },
+      {
+        "slug": "anime-limitless-how-to-beat-bosses",
+        "file": "anime-limitless-how-to-beat-bosses"
+      },
+      {
+        "slug": "anime-limitless-raid-guide",
+        "file": "anime-limitless-raid-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-limitless-codes",
+        "file": "anime-limitless-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-limitless-beginner-guide",
+        "file": "anime-limitless-beginner-guide"
+      },
+      {
+        "slug": "anime-limitless-best-way-to-progress",
+        "file": "anime-limitless-best-way-to-progress"
+      },
+      {
+        "slug": "anime-limitless-how-to-play",
+        "file": "anime-limitless-how-to-play"
+      },
+      {
+        "slug": "anime-limitless-progression-guide",
+        "file": "anime-limitless-progression-guide"
+      },
+      {
+        "slug": "anime-limitless-release-guide",
+        "file": "anime-limitless-release-guide"
+      },
+      {
+        "slug": "anime-limitless-starter-guide",
+        "file": "anime-limitless-starter-guide"
+      },
+      {
+        "slug": "anime-limitless-tips",
+        "file": "anime-limitless-tips"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "anime-limitless-armament-haki",
+        "file": "anime-limitless-armament-haki"
+      },
+      {
+        "slug": "anime-limitless-haki-guide",
+        "file": "anime-limitless-haki-guide"
+      },
+      {
+        "slug": "anime-limitless-haki-requirements",
+        "file": "anime-limitless-haki-requirements"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-haki",
+        "file": "anime-limitless-how-to-get-haki"
+      },
+      {
+        "slug": "anime-limitless-observation-haki",
+        "file": "anime-limitless-observation-haki"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "anime-limitless-daily-rewards",
+        "file": "anime-limitless-daily-rewards"
+      },
+      {
+        "slug": "anime-limitless-free-rewards",
+        "file": "anime-limitless-free-rewards"
+      },
+      {
+        "slug": "anime-limitless-playtime-rewards",
+        "file": "anime-limitless-playtime-rewards"
+      },
+      {
+        "slug": "anime-limitless-update-rewards",
+        "file": "anime-limitless-update-rewards"
+      }
+    ],
+    "showcase": [
+      {
+        "slug": "anime-limitless-full-showcase",
+        "file": "anime-limitless-full-showcase"
+      },
+      {
+        "slug": "anime-limitless-gameplay",
+        "file": "anime-limitless-gameplay"
+      },
+      {
+        "slug": "anime-limitless-new-update",
+        "file": "anime-limitless-new-update"
+      },
+      {
+        "slug": "anime-limitless-roblox",
+        "file": "anime-limitless-roblox"
+      },
+      {
+        "slug": "anime-limitless-showcase",
+        "file": "anime-limitless-showcase"
+      }
+    ],
+    "souls": [
+      {
+        "slug": "anime-limitless-best-souls",
+        "file": "anime-limitless-best-souls"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-souls",
+        "file": "anime-limitless-how-to-get-souls"
+      },
+      {
+        "slug": "anime-limitless-soul-drop-rate",
+        "file": "anime-limitless-soul-drop-rate"
+      },
+      {
+        "slug": "anime-limitless-souls-guide",
+        "file": "anime-limitless-souls-guide"
+      },
+      {
+        "slug": "anime-limitless-souls-tier-list",
+        "file": "anime-limitless-souls-tier-list"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "anime-limitless-best-stats",
+        "file": "anime-limitless-best-stats"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-stronger",
+        "file": "anime-limitless-how-to-get-stronger"
+      },
+      {
+        "slug": "anime-limitless-stat-exp",
+        "file": "anime-limitless-stat-exp"
+      },
+      {
+        "slug": "anime-limitless-stats-farming",
+        "file": "anime-limitless-stats-farming"
+      },
+      {
+        "slug": "anime-limitless-stats-guide",
+        "file": "anime-limitless-stats-guide"
+      },
+      {
+        "slug": "anime-limitless-training-guide",
+        "file": "anime-limitless-training-guide"
+      }
+    ]
+  },
+  "pt": {
+    "bosses": [
+      {
+        "slug": "anime-limitless-boss-drops",
+        "file": "anime-limitless-boss-drops"
+      },
+      {
+        "slug": "anime-limitless-boss-locations",
+        "file": "anime-limitless-boss-locations"
+      },
+      {
+        "slug": "anime-limitless-bosses-guide",
+        "file": "anime-limitless-bosses-guide"
+      },
+      {
+        "slug": "anime-limitless-how-to-beat-bosses",
+        "file": "anime-limitless-how-to-beat-bosses"
+      },
+      {
+        "slug": "anime-limitless-raid-guide",
+        "file": "anime-limitless-raid-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-limitless-codes",
+        "file": "anime-limitless-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-limitless-beginner-guide",
+        "file": "anime-limitless-beginner-guide"
+      },
+      {
+        "slug": "anime-limitless-best-way-to-progress",
+        "file": "anime-limitless-best-way-to-progress"
+      },
+      {
+        "slug": "anime-limitless-how-to-play",
+        "file": "anime-limitless-how-to-play"
+      },
+      {
+        "slug": "anime-limitless-progression-guide",
+        "file": "anime-limitless-progression-guide"
+      },
+      {
+        "slug": "anime-limitless-release-guide",
+        "file": "anime-limitless-release-guide"
+      },
+      {
+        "slug": "anime-limitless-starter-guide",
+        "file": "anime-limitless-starter-guide"
+      },
+      {
+        "slug": "anime-limitless-tips",
+        "file": "anime-limitless-tips"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "anime-limitless-armament-haki",
+        "file": "anime-limitless-armament-haki"
+      },
+      {
+        "slug": "anime-limitless-haki-guide",
+        "file": "anime-limitless-haki-guide"
+      },
+      {
+        "slug": "anime-limitless-haki-requirements",
+        "file": "anime-limitless-haki-requirements"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-haki",
+        "file": "anime-limitless-how-to-get-haki"
+      },
+      {
+        "slug": "anime-limitless-observation-haki",
+        "file": "anime-limitless-observation-haki"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "anime-limitless-daily-rewards",
+        "file": "anime-limitless-daily-rewards"
+      },
+      {
+        "slug": "anime-limitless-free-rewards",
+        "file": "anime-limitless-free-rewards"
+      },
+      {
+        "slug": "anime-limitless-playtime-rewards",
+        "file": "anime-limitless-playtime-rewards"
+      },
+      {
+        "slug": "anime-limitless-update-rewards",
+        "file": "anime-limitless-update-rewards"
+      }
+    ],
+    "showcase": [
+      {
+        "slug": "anime-limitless-full-showcase",
+        "file": "anime-limitless-full-showcase"
+      },
+      {
+        "slug": "anime-limitless-gameplay",
+        "file": "anime-limitless-gameplay"
+      },
+      {
+        "slug": "anime-limitless-new-update",
+        "file": "anime-limitless-new-update"
+      },
+      {
+        "slug": "anime-limitless-roblox",
+        "file": "anime-limitless-roblox"
+      },
+      {
+        "slug": "anime-limitless-showcase",
+        "file": "anime-limitless-showcase"
+      }
+    ],
+    "souls": [
+      {
+        "slug": "anime-limitless-best-souls",
+        "file": "anime-limitless-best-souls"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-souls",
+        "file": "anime-limitless-how-to-get-souls"
+      },
+      {
+        "slug": "anime-limitless-soul-drop-rate",
+        "file": "anime-limitless-soul-drop-rate"
+      },
+      {
+        "slug": "anime-limitless-souls-guide",
+        "file": "anime-limitless-souls-guide"
+      },
+      {
+        "slug": "anime-limitless-souls-tier-list",
+        "file": "anime-limitless-souls-tier-list"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "anime-limitless-best-stats",
+        "file": "anime-limitless-best-stats"
+      },
+      {
+        "slug": "anime-limitless-how-to-get-stronger",
+        "file": "anime-limitless-how-to-get-stronger"
+      },
+      {
+        "slug": "anime-limitless-stat-exp",
+        "file": "anime-limitless-stat-exp"
+      },
+      {
+        "slug": "anime-limitless-stats-farming",
+        "file": "anime-limitless-stats-farming"
+      },
+      {
+        "slug": "anime-limitless-stats-guide",
+        "file": "anime-limitless-stats-guide"
+      },
+      {
+        "slug": "anime-limitless-training-guide",
+        "file": "anime-limitless-training-guide"
+      }
+    ]
+  }
+}
